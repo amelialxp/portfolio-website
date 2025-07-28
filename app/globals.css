@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #F8F5F1;
+  --foreground: #2C2C2C;
+  --primary-yellow: #FFC806;
+  --secondary-navy: #0E3591;
+  --body-text: #2C2C2C;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #F8F5F1;
+    --foreground: #2C2C2C;
+  }
+}
+
+body {
+  color: var(--body-text);
+  background: var(--background);
+  font-family: var(--font-spectral), serif;
+}
+
+@layer components {
+  .heading-1 {
+    @apply font-old-standard font-bold text-[40px] leading-tight;
+  }
+  
+  .heading-2 {
+    @apply font-old-standard font-normal text-[32px] leading-tight;
+  }
+  
+  .heading-3 {
+    @apply font-old-standard font-normal text-[24px] leading-tight;
+  }
+  
+  .caption {
+    @apply font-spectral font-bold text-[20px] leading-relaxed;
+  }
+  
+  .body-text {
+    @apply font-spectral font-normal text-[20px] leading-relaxed;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
