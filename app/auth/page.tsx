@@ -8,10 +8,8 @@ export default function Auth() {
   const router = useRouter()
 
   const validCodes = [
-    'RECRUITER2024',
-    'ADOBE2024', 
-    'GOOGLE2024',
-    'DESIGN2024'
+    '2025',
+    'lolpassword'
   ]
 
   const handleSubmit = (e: React.FormEvent) => {

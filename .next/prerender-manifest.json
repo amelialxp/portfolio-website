@@ -1,11 +1,1 @@
-{
-  "version": 4,
-  "routes": {},
-  "dynamicRoutes": {},
-  "notFoundRoutes": [],
-  "preview": {
-    "previewModeId": "99e72a787b809576b15b7807f873596f",
-    "previewModeSigningKey": "8228a7297acad21ac93fd025a8c0fa024ba45737a40df7deb10014e14c462ebe",
-    "previewModeEncryptionKey": "f18cbfe1dd56b013f7dffd324bf59d484561e87045ed53c6428dd48f4e538eb9"
-  }
-}
+{"version":4,"routes":{"/work/adobe-design-system":{},"/work/fintech-mobile-app":{},"/work/healthcare-dashboard":{},"/work/storehub-membership":{}},"dynamicRoutes":{"/work/[slug]":{"fallback":null}},"notFoundRoutes":[],"preview":{"previewModeId":"0f26c4384bd545d97cb787d1ce77216a","previewModeSigningKey":"adb60f684689ae4db47d7e462f673be6dbf994d71c650e14900202557a001f05","previewModeEncryptionKey":"8130fddf739b8fd50410209e0745a4767a8c80676b9a2b8b81d2956881c560d8"}}

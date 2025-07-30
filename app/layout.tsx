@@ -26,7 +26,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${oldStandardTT.variable} ${spectral.variable} font-spectral`}>{children}</body>
+      <body className={`${oldStandardTT.variable} ${spectral.variable} font-spectral`}>
+        {children}
+      </body>
     </html>
   )
 }
