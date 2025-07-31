@@ -50,7 +50,7 @@ export default function About() {
                 <div className="prose prose-lg max-w-none">
                   <div className="font-spectral text-lg text-text-body leading-relaxed space-y-6">
                     <p>
-                      I'm endlessly curious about how things work—from merchant workflows to kitchen operations—and I bring that obsession with understanding systems into every design challenge I tackle.
+                      {"I'm endlessly curious about how things work—from merchant workflows to kitchen operations—and I bring that obsession with understanding systems into every design challenge I tackle."}
                     </p>
                     
                     <p>
@@ -58,11 +58,11 @@ export default function About() {
                     </p>
                     
                     <p>
-                      Over five years, I've evolved from designing screens to designing systems that help entire teams move faster, mentoring designers through honest but caring feedback, and stepping up to own products when leadership gaps emerge.
+                      {"Over five years, I've evolved from designing screens to designing systems that help entire teams move faster, mentoring designers through honest but caring feedback, and stepping up to own products when leadership gaps emerge."}
                     </p>
                     
                     <p>
-                      These days, I'm particularly energized by work that creates measurable business impact—building design infrastructure, diving into data to understand user behavior, and solving problems that have ripple effects beyond just the screen.
+                      {"These days, I'm particularly energized by work that creates measurable business impact—building design infrastructure, diving into data to understand user behavior, and solving problems that have ripple effects beyond just the screen."}
                     </p>
                   </div>
                 </div>
@@ -77,10 +77,10 @@ export default function About() {
           <div className="max-w-4xl mx-auto text-center">
             <div className="bg-white rounded-lg p-12 shadow-sm">
               <h2 className="font-old-standard text-3xl text-text-body mb-4">
-                Let's Work Together
+                {"Let's Work Together"}
               </h2>
               <p className="font-spectral text-lg text-text-body mb-8 max-w-2xl mx-auto">
-                I'm always interested in discussing new opportunities and challenging projects.
+                {"I'm always interested in discussing new opportunities and challenging projects."}
               </p>
               <div className="flex justify-center gap-6">
                 <a 
