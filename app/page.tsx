@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import ProtectedRoute from '@/components/ProtectedRoute'
 import { FeaturedWork } from '@/components/homepage/FeaturedWork'
 
