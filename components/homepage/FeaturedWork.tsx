@@ -5,13 +5,9 @@ export const FeaturedWork = () => {
   const featuredCaseStudies = getFeaturedCaseStudies()
 
   return (
-    <section className="px-8 py-16">
-      <div className="max-w-6xl mx-auto">
-        <h2 className="font-old-standard text-4xl text-text-body mb-12 text-center">
-          Selected Work
-        </h2>
-        
-        <div className="grid md:grid-cols-3 gap-8">
+    <section id="work" className="px-8 py-20">
+      <div className="max-w-4xl mx-auto">
+        <div className="space-y-32">
           {featuredCaseStudies.map((caseStudy) => (
             <CaseStudyCard 
               key={caseStudy.slug} 

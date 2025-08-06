@@ -4,45 +4,34 @@
 
 :root {
   --background: #F8F5F1;
-  --foreground: #2C2C2C;
+  --foreground: #4A4A4A;
   --primary-yellow: #FFC806;
   --secondary-navy: #0E3591;
-  --body-text: #2C2C2C;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #F8F5F1;
-    --foreground: #2C2C2C;
+    --foreground: #4A4A4A;
   }
 }
 
 body {
-  color: var(--body-text);
+  color: var(--foreground);
   background: var(--background);
   font-family: var(--font-spectral), serif;
 }
 
-@layer components {
-  .heading-1 {
-    @apply font-old-standard font-bold text-[40px] leading-tight;
-  }
-  
-  .heading-2 {
-    @apply font-old-standard font-normal text-[32px] leading-tight;
-  }
-  
-  .heading-3 {
-    @apply font-old-standard font-normal text-[24px] leading-tight;
-  }
-  
-  .caption {
-    @apply font-spectral font-bold text-[20px] leading-relaxed;
-  }
-  
-  .body-text {
-    @apply font-spectral font-normal text-[20px] leading-relaxed;
-  }
+h1 {
+  @apply font-spectral text-3xl md:text-4xl text-text-body mb-6 leading-tight;
+}
+
+h2 {
+  @apply font-spectral text-2xl md:text-3xl text-text-body mb-4 mt-8 leading-tight;
+}
+
+h3 {
+  @apply font-spectral text-xl md:text-2xl text-text-body mb-3 mt-6 leading-tight;
 }
 
 @layer utilities {

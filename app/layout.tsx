@@ -1,17 +1,17 @@
 import type { Metadata } from 'next'
-import { Old_Standard_TT, Spectral } from 'next/font/google'
+import { Spectral, Borel } from 'next/font/google'
 import './globals.css'
-
-const oldStandardTT = Old_Standard_TT({ 
-  subsets: ['latin'],
-  weight: ['400', '700'],
-  variable: '--font-old-standard'
-})
 
 const spectral = Spectral({ 
   subsets: ['latin'],
-  weight: ['300', '400', '500', '600', '700'],
+  weight: ['300', '400', '500', '600'],
   variable: '--font-spectral'
+})
+
+const borel = Borel({ 
+  subsets: ['latin'],
+  weight: ['400'],
+  variable: '--font-borel'
 })
 
 export const metadata: Metadata = {
@@ -26,7 +26,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${oldStandardTT.variable} ${spectral.variable} font-spectral`}>
+      <body className={`${spectral.variable} ${borel.variable} font-spectral`}>
         {children}
       </body>
     </html>

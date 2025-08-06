@@ -8,35 +8,35 @@ export default function Home() {
         {/* Header/Navigation */}
         <header className="px-8 py-6">
           <nav className="max-w-6xl mx-auto flex justify-between items-center">
-            <div className="font-old-standard font-bold text-2xl text-text-body">
-              Amelia XP
+            <div className="font-borel text-base text-text-body">
+              amelia liw
             </div>
             <div className="flex gap-8">
-              <a href="/about" className="font-spectral text-text-body hover:text-secondary-navy transition-colors">
-                About
+              <a href="/" className="font-spectral text-secondary-navy hover:text-secondary-navy transition-colors group relative">
+                <span className="relative">
+                  Work
+                  <span className="absolute bottom-0 left-0 w-full h-0.5 bg-primary-yellow transition-all duration-300"></span>
+                </span>
               </a>
-              <a href="#work" className="font-spectral text-text-body hover:text-secondary-navy transition-colors">
-                Work
-              </a>
-              <a href="#contact" className="font-spectral text-text-body hover:text-secondary-navy transition-colors">
-                Contact
+              <a href="/about" className="font-spectral text-secondary-navy hover:text-secondary-navy transition-colors group relative">
+                <span className="relative">
+                  About
+                  <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary-yellow group-hover:w-full transition-all duration-300"></span>
+                </span>
               </a>
             </div>
           </nav>
         </header>
 
         {/* Hero Section */}
-        <section className="px-8 py-20">
-          <div className="max-w-4xl mx-auto text-center">
-            <h1 className="font-old-standard font-bold text-5xl md:text-6xl text-text-body mb-6">
-             Hi there :)
+        <section className="px-8 py-12">
+          <div className="max-w-4xl mx-auto">
+            <h1>
+             Hey there!
             </h1>
-            <p className="font-spectral text-xl md:text-2xl text-text-body mb-8 max-w-2xl mx-auto">
-              {"I'm a product designer who believes great design happens when you deeply understand both the problem and the people you're solving it for."}
+            <p className="font-spectral text-lg md:text-xl text-text-body max-w-3xl leading-relaxed">
+              {"Amelia is a Senior Product Designer who is obsessively curious about 'how' and 'why' of everything UX. She's been playing tug-of-war at the intersection of user needs and business constraints since 2020."}
             </p>
-            <button className="bg-primary-yellow text-text-body px-8 py-4 rounded-lg font-spectral font-bold text-lg hover:bg-yellow-400 transition-colors">
-              View My Work
-            </button>
           </div>
         </section>
 
@@ -44,19 +44,11 @@ export default function Home() {
         <FeaturedWork />
 
         {/* Footer */}
-        <footer className="px-8 py-12 border-t border-gray-200">
+        <footer className="px-8 py-16">
           <div className="max-w-4xl mx-auto text-center">
-            <p className="font-spectral text-text-body mb-4">
-              {"Let's create something amazing together."}
+            <p className="font-spectral text-gray-500 text-sm">
+              © 2025 Amelia Liw. Designed and built with care and Claude Code 🤖.
             </p>
-            <div className="flex justify-center gap-6">
-              <a href="#" className="font-spectral text-secondary-navy hover:text-primary-yellow transition-colors">
-                LinkedIn
-              </a>
-              <a href="#" className="font-spectral text-secondary-navy hover:text-primary-yellow transition-colors">
-                Email
-              </a>
-            </div>
           </div>
         </footer>
       </main>

@@ -27,7 +27,7 @@ export default function Auth() {
   return (
     <div className="min-h-screen bg-primary-background flex items-center justify-center px-8">
       <div className="bg-white rounded-lg p-8 max-w-md w-full shadow-lg">
-        <h1 className="font-old-standard font-bold text-3xl text-text-body mb-2">
+        <h1>
           Portfolio Access
         </h1>
         <p className="font-spectral text-text-body mb-6">
@@ -49,13 +49,13 @@ export default function Auth() {
           
           <button
             type="submit"
-            className="w-full bg-primary-yellow text-text-body px-6 py-3 rounded-lg font-spectral font-bold hover:bg-yellow-400 transition-colors"
+            className="w-full bg-primary-yellow text-text-body px-6 py-3 rounded-lg font-spectral hover:bg-yellow-400 transition-colors"
           >
             Access Portfolio
           </button>
         </form>
         
-        <p className="font-spectral text-sm text-gray-600 mt-6 text-center">
+        <p className="font-spectral text-sm text-text-body mt-6 text-center">
           Need an access code? Contact Amelia at your.email@domain.com
         </p>
       </div>

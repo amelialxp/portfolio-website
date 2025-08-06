@@ -16,20 +16,18 @@ const config: Config = {
         secondary: {
           navy: '#0E3591',
         },
-        body: {
-          text: '#2C2C2C',
-        },
+        'text-body': '#4A4A4A',
         background: 'var(--background)',
         foreground: 'var(--foreground)',
       },
       fontFamily: {
-        'old-standard': ['Old Standard TT', 'serif'],
-        'spectral': ['Spectral', 'serif'],
+        'spectral': ['var(--font-spectral)', 'serif'],
+        'borel': ['var(--font-borel)', 'cursive'],
       },
       fontSize: {
-        'heading-1': '40px',
-        'heading-2': '32px',
-        'heading-3': '24px',
+        'heading-1': '32px',
+        'heading-2': '24px',
+        'heading-3': '20px',
         'caption': '20px',
         'body': '20px',
       },
