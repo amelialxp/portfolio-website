@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import { ArrowRight } from 'lucide-react'
 import { CaseStudyMetadata } from '../../lib/case-study-metadata'
 
@@ -11,13 +12,25 @@ export const CaseStudyCard = ({ caseStudy }: CaseStudyCardProps) => {
     <Link href={`/work/${caseStudy.slug}`} className="group block">
       <article className="transition-all duration-300">
         {/* Hero Image */}
-        <div className="h-80 bg-gradient-to-br from-gray-100 to-gray-200 overflow-hidden flex items-center justify-center relative rounded-lg mb-8">
-          <div className="text-center text-gray-500">
-            <div className="text-base mb-2">Project Hero Image</div>
-            <div className="text-sm">{caseStudy.title}</div>
+        {caseStudy.image ? (
+          <div className="h-80 overflow-hidden rounded-lg mb-8 relative">
+            <Image
+              src={caseStudy.image}
+              alt={caseStudy.title}
+              fill
+              className="object-cover transition-transform group-hover:scale-105"
+            />
+            <div className="absolute inset-0 bg-black/5 group-hover:bg-black/10 transition-colors" />
           </div>
-          <div className="absolute inset-0 bg-black/5 group-hover:bg-black/10 transition-colors" />
-        </div>
+        ) : (
+          <div className="h-80 bg-gradient-to-br from-gray-100 to-gray-200 overflow-hidden flex items-center justify-center relative rounded-lg mb-8">
+            <div className="text-center text-gray-500">
+              <div className="text-base mb-2">Project Hero Image</div>
+              <div className="text-sm">{caseStudy.title}</div>
+            </div>
+            <div className="absolute inset-0 bg-black/5 group-hover:bg-black/10 transition-colors" />
+          </div>
+        )}
         
         {/* Content */}
         <div>

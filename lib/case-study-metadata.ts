@@ -26,7 +26,7 @@ const caseStudyMetadata: Record<string, CaseStudyMetadata> = {
     timeline: 'March 2024 - Present',
     role: 'Senior Product Designer → Product Manager',
     tools: ['Figma', 'StoreHub POS', 'Beep Mobile', 'QR Ordering', 'BackOffice'],
-    image: '/images/projects/storehub-hero.jpg',
+    image: '/images/projects/storehub-hero.png',
     excerpt: 'Designed a membership system that integrates seamlessly across StoreHub\'s complex ecosystem, generating 4,350+ monthly member signups across 88+ active merchant programs.',
     metrics: [
       { label: 'Monthly Signups', value: '4,350+' },
