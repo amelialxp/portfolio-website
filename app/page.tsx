@@ -12,18 +12,18 @@ export default function Home() {
               amelia liw
             </div>
             <div className="flex gap-8">
-              <a href="/" className="font-spectral text-secondary-navy hover:text-secondary-navy transition-colors group relative">
+              <Link href="/" className="font-spectral text-secondary-navy hover:text-secondary-navy transition-colors group relative">
                 <span className="relative">
                   Work
                   <span className="absolute bottom-0 left-0 w-full h-0.5 bg-primary-yellow transition-all duration-300"></span>
                 </span>
-              </a>
-              <a href="/about" className="font-spectral text-secondary-navy hover:text-secondary-navy transition-colors group relative">
+              </Link>
+              <Link href="/about" className="font-spectral text-secondary-navy hover:text-secondary-navy transition-colors group relative">
                 <span className="relative">
                   About
                   <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary-yellow group-hover:w-full transition-all duration-300"></span>
                 </span>
-              </a>
+              </Link>
             </div>
           </nav>
         </header>
