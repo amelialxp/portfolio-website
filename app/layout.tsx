@@ -15,8 +15,29 @@ const borel = Borel({
 })
 
 export const metadata: Metadata = {
-  title: 'Portfolio - Product Designer',
-  description: 'A product designer portfolio showcasing innovative design solutions',
+  title: 'Amelia Liw',
+  description: 'Senior Product Designer specializing in design systems, user experience, and building products that help teams move faster. Portfolio showcasing 5+ years of design work.',
+  keywords: ['product designer', 'UX designer', 'design systems', 'user experience', 'portfolio', 'Amelia Liw'],
+  authors: [{ name: 'Amelia Liw' }],
+  creator: 'Amelia Liw',
+  publisher: 'Amelia Liw',
+  metadataBase: new URL('https://amelialiw.com'),
+  openGraph: {
+    title: 'Amelia Liw - Senior Product Designer',
+    description: 'Senior Product Designer specializing in design systems and user experience. View my portfolio of design work and case studies.',
+    url: 'https://amelialiw.com',
+    siteName: 'Amelia Liw Portfolio',
+    type: 'website',
+  },
+  icons: {
+    icon: [
+      {
+        url: '/favicon.ico',
+        sizes: 'any',
+      }
+    ],
+    shortcut: '/favicon.ico',
+  },
 }
 
 export default function RootLayout({

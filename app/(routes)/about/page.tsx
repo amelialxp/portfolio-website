@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import { Linkedin } from 'lucide-react'
 
 export default function About() {
@@ -40,13 +41,13 @@ export default function About() {
         {/* Main Content */}
         <section className="px-8 py-8">
           <div className="max-w-4xl mx-auto">
-            <div className="flex flex-col lg:flex-row gap-16 items-center lg:items-start">
+            <div className="flex flex-col lg:flex-row gap-16 items-center lg:items-center">
               {/* Story Content */}
               <div className="flex-1 lg:order-1 space-y-8">
                 <div className="prose prose-lg max-w-none">
                   <div className="font-spectral text-lg text-text-body leading-relaxed space-y-6">
                     <p>
-                      {"Over five years, I've evolved from designing screens to designing systems that help entire teams move faster, mentoring designers through honest but caring feedback, and stepping up to own products when leadership gaps emerge."}
+                      {"Over five years, I've evolved from designing screens to designing systems that help entire teams move faster, and mentoring designers through honest but caring feedback."}
                     </p>
                     
                     <p>
@@ -62,11 +63,17 @@ export default function About() {
 
               {/* Photo */}
               <div className="lg:order-2 flex justify-center lg:justify-end">
-                <div className="w-64 aspect-[3/4] bg-gray-200 rounded-lg shadow-lg flex items-center justify-center flex-shrink-0">
-                  <div className="text-center text-gray-500">
-                    <div className="text-base text-text-body mb-2">Professional Photo</div>
-                    <div className="text-sm">Add your headshot here</div>
-                  </div>
+                <div className="w-64 aspect-square rounded-lg shadow-lg overflow-hidden flex-shrink-0">
+                  <Image
+                    src="/images/projects/about.jpg"
+                    alt="Amelia Liw - Professional Photo"
+                    width={256}
+                    height={256}
+                    quality={95}
+                    priority
+                    sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 256px"
+                    className="w-full h-full object-cover"
+                  />
                 </div>
               </div>
             </div>
