@@ -1,7 +1,15 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import { ArrowRight } from 'lucide-react'
-import { CaseStudyMetadata } from '../../lib/case-study-metadata'
+
+interface CaseStudyMetadata {
+  slug: string
+  title: string
+  subtitle: string
+  excerpt: string
+  image: string | null
+  metrics: Array<{ value: string; label: string }> | null
+}
 
 interface CaseStudyCardProps {
   caseStudy: CaseStudyMetadata
@@ -25,8 +33,8 @@ export const CaseStudyCard = ({ caseStudy }: CaseStudyCardProps) => {
             <div className="absolute inset-0 bg-black/5 group-hover:bg-black/10 transition-colors" />
           </div>
         ) : (
-          <div className="h-48 sm:h-64 md:h-80 bg-gradient-to-br from-gray-100 to-gray-200 overflow-hidden flex items-center justify-center relative rounded-lg mb-8">
-            <div className="text-center text-gray-500">
+          <div className="h-48 sm:h-64 md:h-80 bg-container overflow-hidden flex items-center justify-center relative rounded-lg mb-8">
+            <div className="text-center text-secondary-gray">
               <div className="text-base mb-2">Project Hero Image</div>
               <div className="text-sm">{caseStudy.title}</div>
             </div>
@@ -41,7 +49,7 @@ export const CaseStudyCard = ({ caseStudy }: CaseStudyCardProps) => {
             <h3>
               {caseStudy.title}
             </h3>
-            <p className="font-spectral text-lg text-gray-600 mb-8">
+            <p className="font-spectral text-lg text-secondary-gray mb-8">
               {caseStudy.subtitle}
             </p>
 
@@ -51,10 +59,10 @@ export const CaseStudyCard = ({ caseStudy }: CaseStudyCardProps) => {
                 <div className="grid grid-cols-3 gap-8">
                   {caseStudy.metrics.map((metric, index) => (
                     <div key={index} className="text-left">
-                      <div className="text-2xl text-text-body mb-2">
+                      <h3 className="mb-2">
                         {metric.value}
-                      </div>
-                      <div className="font-spectral text-sm text-gray-600 leading-tight">
+                      </h3>
+                      <div className="font-spectral text-sm text-secondary-gray leading-tight">
                         {metric.label}
                       </div>
                     </div>
@@ -63,7 +71,7 @@ export const CaseStudyCard = ({ caseStudy }: CaseStudyCardProps) => {
               </div>
             )}
 
-            <p className="font-spectral text-text-body leading-relaxed mb-8">
+            <p className="font-spectral text-foreground leading-relaxed mb-8">
               {caseStudy.excerpt}
             </p>
           </div>

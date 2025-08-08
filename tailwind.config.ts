@@ -9,16 +9,19 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        primary: {
-          yellow: '#FFC806',
-          background: '#F8F5F1',
-        },
-        secondary: {
-          navy: '#0E3591',
-        },
-        'text-body': '#4A4A4A',
         background: 'var(--background)',
         foreground: 'var(--foreground)',
+        'secondary-gray': 'var(--secondary-gray)',
+        'accent-yellow': 'var(--accent-yellow)',
+        'accent-navy': 'var(--accent-navy)',
+        'pure-white': 'var(--pure-white)',
+        'container': 'var(--container-bg)',
+        primary: {
+          yellow: 'var(--accent-yellow)',
+        },
+        secondary: {
+          navy: 'var(--accent-navy)',
+        },
       },
       fontFamily: {
         'spectral': ['var(--font-spectral)', 'serif'],
@@ -33,8 +36,6 @@ const config: Config = {
       },
     },
   },
-  plugins: [
-    require('@tailwindcss/typography'),
-  ],
+  plugins: [],
 }
 export default config

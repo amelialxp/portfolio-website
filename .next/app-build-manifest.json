@@ -11,20 +11,10 @@
       "static/chunks/main-app.js",
       "static/chunks/app/page.js"
     ],
-    "/auth/page": [
+    "/(routes)/work/storehub-membership/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/auth/page.js"
-    ],
-    "/(routes)/work/[slug]/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(routes)/work/[slug]/page.js"
-    ],
-    "/(routes)/about/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(routes)/about/page.js"
+      "static/chunks/app/(routes)/work/storehub-membership/page.js"
     ]
   }
 }

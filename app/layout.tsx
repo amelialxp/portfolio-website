@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Spectral, Borel } from 'next/font/google'
 import './globals.css'
+import { Header, Footer } from '@/components/layout'
 
 const spectral = Spectral({ 
   subsets: ['latin'],
@@ -48,7 +49,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${spectral.variable} ${borel.variable} font-spectral`}>
-        {children}
+        <div className="min-h-screen bg-background">
+          <Header />
+          <main>
+            {children}
+          </main>
+          <Footer />
+        </div>
       </body>
     </html>
   )

@@ -5,15 +5,11 @@
 :root {
   --background: #F8F5F1;
   --foreground: #4A4A4A;
-  --primary-yellow: #FFC806;
-  --secondary-navy: #0E3591;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #F8F5F1;
-    --foreground: #4A4A4A;
-  }
+  --secondary-gray: #555555;
+  --accent-yellow: #FFC806;
+  --accent-navy: #0E3591;
+  --pure-white: #FFFFFF;
+  --container-bg: #FFFFFF;
 }
 
 body {
@@ -23,15 +19,15 @@ body {
 }
 
 h1 {
-  @apply font-spectral text-3xl md:text-4xl text-text-body mb-6 leading-tight;
+  @apply font-spectral text-3xl md:text-4xl text-foreground mb-6 leading-tight;
 }
 
 h2 {
-  @apply font-spectral text-2xl md:text-3xl text-text-body mb-4 mt-8 leading-tight;
+  @apply font-spectral text-2xl md:text-3xl text-foreground mb-4 mt-8 leading-tight;
 }
 
 h3 {
-  @apply font-spectral text-xl md:text-2xl text-text-body mb-3 mt-6 leading-tight;
+  @apply font-spectral text-xl md:text-2xl text-foreground mb-3 mt-6 leading-tight;
 }
 
 @layer utilities {

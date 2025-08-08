@@ -1,6 +1,0 @@
-export { Hero } from './Hero'
-export { Problem } from './Problem'
-export { Process } from './Process'
-export { ImageGallery } from './ImageGallery'
-export { Results } from './Results'
-export { NextProject } from './NextProject'

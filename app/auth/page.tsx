@@ -25,12 +25,12 @@ export default function Auth() {
   }
 
   return (
-    <div className="min-h-screen bg-primary-background flex items-center justify-center px-8">
-      <div className="bg-white rounded-lg p-8 max-w-md w-full shadow-lg">
+    <div className="min-h-screen bg-background flex items-center justify-center px-8">
+      <div className="bg-container rounded-lg p-8 max-w-md w-full shadow-lg border border-secondary-gray">
         <h1>
           Portfolio Access
         </h1>
-        <p className="font-spectral text-text-body mb-6">
+        <p className="font-spectral text-foreground mb-6">
           Please enter your access code to view Amelia&apos;s portfolio.
         </p>
         
@@ -40,22 +40,22 @@ export default function Auth() {
             value={accessCode}
             onChange={(e) => setAccessCode(e.target.value)}
             placeholder="Enter access code"
-            className="w-full px-4 py-3 border border-gray-300 rounded-lg font-spectral mb-4 focus:outline-none focus:border-secondary-navy"
+            className="w-full px-4 py-3 border border-secondary-gray rounded-lg font-spectral mb-4 focus:outline-none focus:border-secondary-navy bg-container text-foreground"
           />
           
           {error && (
-            <p className="text-red-600 font-spectral text-sm mb-4">{error}</p>
+            <p className="text-accent-navy font-spectral text-sm mb-4">{error}</p>
           )}
           
           <button
             type="submit"
-            className="w-full bg-primary-yellow text-text-body px-6 py-3 rounded-lg font-spectral hover:bg-yellow-400 transition-colors"
+            className="w-full bg-primary-yellow text-foreground px-6 py-3 rounded-lg font-spectral hover:bg-accent-yellow transition-colors"
           >
             Access Portfolio
           </button>
         </form>
         
-        <p className="font-spectral text-sm text-text-body mt-6 text-center">
+        <p className="font-spectral text-sm text-foreground mt-6 text-center">
           Need an access code? Contact Amelia at your.email@domain.com
         </p>
       </div>

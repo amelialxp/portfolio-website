@@ -1,6 +1,4 @@
 {
-  "/auth/page": "app/auth/page.js",
-  "/page": "app/page.js",
-  "/(routes)/work/[slug]/page": "app/(routes)/work/[slug]/page.js",
-  "/(routes)/about/page": "app/(routes)/about/page.js"
+  "/(routes)/work/storehub-membership/page": "app/(routes)/work/storehub-membership/page.js",
+  "/page": "app/page.js"
 }

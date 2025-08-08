@@ -21,8 +21,8 @@ export default function ProtectedRoute({ children }: { children: React.ReactNode
 
   if (isLoading) {
     return (
-      <div className="min-h-screen bg-primary-background flex items-center justify-center">
-        <div className="font-spectral text-text-body">Loading...</div>
+      <div className="min-h-screen bg-background flex items-center justify-center">
+        <div className="font-spectral text-foreground">Loading...</div>
       </div>
     )
   }
