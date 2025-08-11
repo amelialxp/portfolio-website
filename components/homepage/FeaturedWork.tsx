@@ -12,14 +12,6 @@ const featuredCaseStudies = [
       { value: '88+', label: 'Active Merchant Programs' },
       { value: '190,000+', label: 'Total Member Signups' }
     ]
-  },
-  {
-    slug: 'adobe-design-system',
-    title: 'Adobe Design System',
-    subtitle: 'Building a scalable component library for enterprise applications',
-    excerpt: 'Adobe needed a unified design system that could scale across multiple enterprise products while maintaining consistency and efficiency for design and development teams.',
-    image: null,
-    metrics: null
   }
 ]
 

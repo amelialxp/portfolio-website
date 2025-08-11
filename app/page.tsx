@@ -1,9 +1,8 @@
-import ProtectedRoute from '@/components/ProtectedRoute'
 import { FeaturedWork } from '@/components/homepage/FeaturedWork'
 
 export default function Home() {
   return (
-    <ProtectedRoute>
+    <>
       {/* Hero Section */}
       <section className="px-8 py-12">
         <div className="max-w-4xl mx-auto">
@@ -18,6 +17,6 @@ export default function Home() {
 
       {/* Case Studies Preview */}
       <FeaturedWork />
-    </ProtectedRoute>
+    </>
   )
 }

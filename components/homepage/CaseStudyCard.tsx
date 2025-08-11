@@ -17,7 +17,7 @@ interface CaseStudyCardProps {
 
 export const CaseStudyCard = ({ caseStudy }: CaseStudyCardProps) => {
   return (
-    <Link href={`/work/${caseStudy.slug}`} className="group block">
+    <Link href={`/${caseStudy.slug}`} className="group block">
       <article className="transition-all duration-300">
         {/* Hero Image */}
         {caseStudy.image ? (
