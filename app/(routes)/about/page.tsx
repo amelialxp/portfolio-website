@@ -5,10 +5,10 @@ export default function About() {
   return (
     <>
       {/* Page Header */}
-      <section className="px-8 py-8">
+      <section className="px-8 pt-16 pb-4">
         <div className="max-w-4xl mx-auto">
           <h1>
-            A Product Designer & Systems Thinker
+            A Product Designer, A Systems Thinker, & Someone who simply Cares a Lot
           </h1>
         </div>
       </section>
@@ -22,7 +22,7 @@ export default function About() {
               <div className="prose prose-lg max-w-none">
                 <div className="font-spectral text-lg text-foreground leading-relaxed space-y-6">
                   <p>
-                    {"Over five years, I've evolved from designing screens to designing systems that help entire teams move faster, and mentoring designers through honest but caring feedback."}
+                    {"Over the past five years, I've evolved from designing screens to designing systems that help entire teams move faster, and mentoring designers through honest but caring feedback."}
                   </p>
                   
                   <p>
@@ -38,7 +38,7 @@ export default function About() {
 
             {/* Photo */}
             <div className="lg:order-2 flex justify-center lg:justify-end">
-              <div className="w-64 aspect-square rounded-lg shadow-lg overflow-hidden flex-shrink-0">
+              <div className="w-64 aspect-square rounded-3xl shadow-lg overflow-hidden flex-shrink-0">
                 <Image
                   src="/images/projects/about.jpg"
                   alt="Amelia Liw - Professional Photo"

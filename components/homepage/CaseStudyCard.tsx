@@ -79,7 +79,7 @@ export const CaseStudyCard = ({ caseStudy }: CaseStudyCardProps) => {
           {/* Read More Link */}
           <div className="flex items-center gap-2 text-secondary-navy relative">
             <span className="font-spectral relative">
-              View Case Study
+              Read Case Study
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary-yellow group-hover:w-full transition-all duration-300"></span>
             </span>
             <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />

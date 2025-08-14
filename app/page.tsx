@@ -1,3 +1,5 @@
+import Link from 'next/link'
+import { ArrowRight } from 'lucide-react'
 import { FeaturedWork } from '@/components/homepage/FeaturedWork'
 
 export default function Home() {
@@ -9,9 +11,18 @@ export default function Home() {
           <h1>
            Hey there!
           </h1>
-          <p className="font-spectral text-lg md:text-xl text-foreground max-w-3xl leading-relaxed">
-            {"Amelia is a Senior Product Designer who is obsessively curious about 'how' and 'why' of everything UX. She's been playing tug-of-war at the intersection of user needs and business constraints since 2020."}
+          <p className="font-spectral text-lg md:text-xl text-foreground max-w-3xl leading-relaxed mb-8">
+            {"Amelia is a Senior Product Designer who is obsessively curious about 'how' and 'why' of everything UX."}
           </p>
+
+          {/* Find out more link */}
+          <Link href="/about" className="group inline-flex items-center gap-2 text-secondary-navy relative">
+            <span className="font-spectral relative">
+              More About Amelia
+              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary-yellow group-hover:w-full transition-all duration-300"></span>
+            </span>
+            <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
+          </Link>
         </div>
       </section>
 

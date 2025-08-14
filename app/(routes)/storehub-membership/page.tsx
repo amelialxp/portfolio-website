@@ -2,60 +2,51 @@ import Image from 'next/image'
 
 export default function StorehubMembership() {
   return (
-    <div className="pt-32 pb-24">
-      <div className="max-w-4xl mx-auto px-6">
-        {/* Hero */}
+    <div className="pt-32">
+      {/* Hero Section */}
+      <div className="max-w-4xl mx-auto px-6 pb-16">
         <h1>StoreHub Membership</h1>
         <p className="text-lg text-foreground mb-12 max-w-3xl">
           Integrating Loyalty Across POS, Mobile, and Web
         </p>
-        
-        <div className="grid md:grid-cols-3 gap-8 text-sm mb-16">
-          <div>
-            <h3 className="text-foreground mb-2">Timeline</h3>
-            <p className="text-foreground leading-relaxed">March 2024 - Present</p>
-          </div>
-          <div>
-            <h3 className="text-foreground mb-2">Role</h3>
-            <p className="text-foreground leading-relaxed">Senior Product Designer → Product Manager</p>
-          </div>
-          <div>
-            <h3 className="text-foreground mb-2">Platforms & Tools</h3>
-            <p className="text-foreground leading-relaxed">Figma, StoreHub POS, Beep Mobile, QR Ordering, BackOffice</p>
-          </div>
-        </div>
+      </div>
 
-        {/* Hero Image */}
-        <div className="mt-16 mb-16">
-          <div className="w-full h-64 md:h-80 relative">
-            <Image
-              src="/images/projects/storehub-hero.png"
-              alt="StoreHub Membership System Overview showing the integrated experience across POS, mobile, and web platforms"
-              fill
-              quality={90}
-              sizes="(max-width: 640px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 1024px"
-              className="object-cover"
-            />
-          </div>
-          <div className="mt-4 text-center">
-            <p className="text-sm text-secondary-gray italic">
-              StoreHub&apos;s membership ecosystem - seamlessly connecting POS, mobile ordering, and web experiences
-            </p>
-          </div>
+      {/* Hero Image */}
+      <div className="max-w-4xl mx-auto px-6 mb-16">
+        <div className="w-full">
+          <Image
+            src="/images/projects/storehub-hero.png"
+            alt="StoreHub Membership System Overview showing the integrated experience across POS, mobile, and web platforms"
+            width={800}
+            height={600}
+            quality={90}
+            sizes="(max-width: 640px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 800px"
+            className="w-full h-auto object-contain rounded-lg"
+          />
         </div>
+        <div className="mt-4 text-center">
+          <p className="text-sm text-secondary-gray italic">
+            StoreHub&apos;s membership ecosystem - seamlessly connecting POS, mobile ordering, and web experiences
+          </p>
+        </div>
+      </div>
 
-        {/* Project Overview */}
-        <section className="py-16">
+      {/* Project Overview - Full Width White Section */}
+      <section className="w-full py-16 bg-white shadow-lg">
+        <div className="max-w-4xl mx-auto px-6">
           <h2>Project Overview</h2>
           <div className="max-w-none">
             <p className="text-foreground mb-4 leading-relaxed"><strong>Project:</strong> Designed membership system that integrates seamlessly across StoreHub&apos;s complex ecosystem while keeping merchant experience simple</p>
             <p className="text-foreground mb-4 leading-relaxed"><strong>My Role:</strong> Senior Product Designer - owned merchant and consumer experience designs. Transitioned to PM role for Membership starting mid Q2 2025</p>
             <p className="text-foreground mb-4 leading-relaxed"><strong>Timeline:</strong> March 2024 - Present (V1 launched November 2024, ongoing systematic expansion)</p>
             <p className="text-foreground mb-4 leading-relaxed"><strong>Impact:</strong> StoreHub&apos;s Membership program currently has 4,350+ monthly member signups across 88+ active merchant programs</p>
+            <p className="text-foreground mb-4 leading-relaxed"><strong>Platforms & Tools:</strong> Figma, StoreHub POS, Beep Mobile, QR Ordering, BackOffice</p>
           </div>
-        </section>
+        </div>
+      </section>
 
-        {/* Design Challenge & Approach */}
+      {/* Design Challenge & Approach */}
+      <div className="max-w-4xl mx-auto px-6">
         <section className="py-16">
           <h2>Design Challenge & Approach</h2>
           
@@ -99,8 +90,10 @@ export default function StorehubMembership() {
             </div>
           </div>
         </section>
+      </div>
 
-        {/* Design Process & Solutions */}
+      {/* Design Process & Solutions */}
+      <div className="max-w-4xl mx-auto px-6">
         <section className="py-16">
           <h2>Design Process & Solutions</h2>
           
@@ -124,6 +117,25 @@ export default function StorehubMembership() {
             <p className="text-foreground mb-4 leading-relaxed"><strong>Problem:</strong> Different merchant types had completely different customer interaction patterns - F&B could use QR ordering, but retail needed POS-based solutions</p>
             <p className="text-foreground mb-4 leading-relaxed"><strong>Design approach:</strong> Created multiple enrollment pathways that matched how different merchant types actually interacted with their customers.</p>
             
+            {/* Visual 2 */}
+            <div className="mt-8 mb-8">
+              <div className="w-full">
+                <Image
+                  src="/images/projects/membership-v2.png"
+                  alt="Customer Journey by Merchant Type showing side-by-side enrollment flows - F&B merchants using QR ordering auto-enrollment versus retail merchants using POS-based QR codes and receipt options"
+                  width={800}
+                  height={600}
+                  quality={90}
+                  className="w-full h-auto object-contain"
+                />
+                <div className="mt-4 text-center">
+                  <p className="text-sm text-secondary-gray italic">
+                    Different enrollment pathways for different merchant types - F&B auto-enrollment vs retail checkout flows
+                  </p>
+                </div>
+              </div>
+            </div>
+
             <h4 className="text-foreground mb-3 mt-6 font-semibold">Key design decisions:</h4>
             <ul className="list-disc pl-6 mb-4 text-foreground space-y-2">
               <li>QR ordering auto-enrollment for F&B merchants using table ordering</li>
@@ -136,12 +148,21 @@ export default function StorehubMembership() {
             <p className="text-foreground mb-4 leading-relaxed"><strong>Impact:</strong> Design enabled diverse enrollment pathways that generated 190,000+ total member signups across business types, with data showing distinct usage patterns that validate the multi-pathway approach.</p>
           </div>
 
-          {/* Visual 2 Placeholder */}
+          {/* Visual 2 Chart */}
           <div className="mt-12 mb-12">
-            <div className="w-full h-64 md:h-80 bg-container rounded-lg shadow-lg flex items-center justify-center border border-secondary-gray">
-              <div className="text-center text-secondary-gray">
-                <div className="text-lg text-secondary-gray mb-2">Visual 2</div>
-                <div className="text-sm max-w-md">Customer Journey by Merchant Type - Side-by-side flows showing F&B vs Retail enrollment paths</div>
+            <div className="w-full">
+              <Image
+                src="/images/projects/membership-v2-chart.png"
+                alt="Data visualization chart showing member signup patterns across different enrollment pathways, demonstrating the effectiveness of the multi-pathway approach with distinct usage patterns by merchant type"
+                width={800}
+                height={600}
+                quality={90}
+                className="w-full h-auto object-contain"
+              />
+              <div className="mt-4 text-center">
+                <p className="text-sm text-secondary-gray italic">
+                  Member signup data validating the multi-pathway approach across different merchant types
+                </p>
               </div>
             </div>
           </div>
@@ -178,8 +199,10 @@ export default function StorehubMembership() {
             </div>
           </div>
         </section>
+      </div>
 
-        {/* Cross-Functional Design Leadership */}
+      {/* Cross-Functional Design Leadership */}
+      <div className="max-w-4xl mx-auto px-6">
         <section className="py-16">
           <h2>Cross-Functional Design Leadership</h2>
           
@@ -193,26 +216,37 @@ export default function StorehubMembership() {
             <p className="text-foreground mb-4 leading-relaxed">When the PM departed, I transitioned to product ownership within two weeks because of my comprehensive system knowledge and established stakeholder relationships. This experience taught me to think beyond interfaces to full product strategy, balancing technical constraints with business priorities.</p>
           </div>
         </section>
+      </div>
 
-        {/* Results & Design Impact */}
-        <section className="py-16">
+      {/* Results & Design Impact - Full Width White Section */}
+      <section className="w-full py-16 bg-white shadow-lg">
+        <div className="max-w-4xl mx-auto px-6">
           <h2>Results & Design Impact</h2>
           
-          <div className="grid md:grid-cols-3 gap-8 mb-12">
-            <div className="bg-container p-6 rounded-lg shadow-sm border border-secondary-gray">
-              <h3 className="mb-2">4,350+</h3>
-              <div className="text-foreground mb-1">Monthly Member Signups</div>
-              <div className="text-sm text-secondary-gray">Active member acquisitions across all pathways</div>
+          <div className="grid grid-cols-3 gap-8 mb-12">
+            <div className="text-left">
+              <h3 className="mb-2">
+                4,350+
+              </h3>
+              <div className="font-spectral text-sm text-secondary-gray leading-tight">
+                Monthly Member Signups
+              </div>
             </div>
-            <div className="bg-container p-6 rounded-lg shadow-sm border border-secondary-gray">
-              <h3 className="mb-2">88+</h3>
-              <div className="text-foreground mb-1">Active Merchant Programs</div>
-              <div className="text-sm text-secondary-gray">Merchants successfully using the membership system</div>
+            <div className="text-left">
+              <h3 className="mb-2">
+                88+
+              </h3>
+              <div className="font-spectral text-sm text-secondary-gray leading-tight">
+                Active Merchant Programs
+              </div>
             </div>
-            <div className="bg-container p-6 rounded-lg shadow-sm border border-secondary-gray">
-              <h3 className="mb-2">190,000+</h3>
-              <div className="text-foreground mb-1">Total Member Signups</div>
-              <div className="text-sm text-secondary-gray">Cross-platform enrollment validating multi-pathway approach</div>
+            <div className="text-left">
+              <h3 className="mb-2">
+                190,000+
+              </h3>
+              <div className="font-spectral text-sm text-secondary-gray leading-tight">
+                Total Member Signups
+              </div>
             </div>
           </div>
 
@@ -235,9 +269,11 @@ export default function StorehubMembership() {
               </div>
             </div>
           </div>
-        </section>
+        </div>
+      </section>
 
-        {/* Future Opportunities */}
+      {/* Future Opportunities */}
+      <div className="max-w-4xl mx-auto px-6 pb-24">
         <section className="py-16">
           <h2>Future Opportunities</h2>
           
