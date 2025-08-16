@@ -189,12 +189,21 @@ export default function StorehubMembership() {
             </ul>
           </div>
 
-          {/* Visual 3 Placeholder */}
+          {/* Visual 3 - Reward Types Overview */}
           <div className="mt-12 mb-12">
-            <div className="w-full h-64 md:h-80 bg-container rounded-lg shadow-lg flex items-center justify-center border border-secondary-gray">
-              <div className="text-center text-secondary-gray">
-                <div className="text-lg text-secondary-gray mb-2">Visual 3</div>
-                <div className="text-sm max-w-md">Reward Types Overview - Four panels showing Welcome, Birthday, Points Store, and Tier Upgrade rewards</div>
+            <div className="w-full">
+              <Image
+                src="/images/projects/membership-v3.png"
+                alt="Reward Types Overview showing four panels for Welcome, Birthday, Points Store, and Tier Upgrade rewards with configuration options and merchant customization capabilities"
+                width={800}
+                height={600}
+                quality={90}
+                className="w-full h-auto object-contain"
+              />
+              <div className="mt-4 text-center">
+                <p className="text-sm text-secondary-gray italic">
+                  Four reward types overview - Welcome, Birthday, Points Store, and Tier Upgrade rewards with merchant configuration options
+                </p>
               </div>
             </div>
           </div>
@@ -260,15 +269,6 @@ export default function StorehubMembership() {
             <p className="text-foreground mb-4 leading-relaxed">Seeing merchants like Binq and Starwise successfully use the system to reward loyal customers reminds me why this design work matters. Each signup represents a customer who chose to build a relationship with a local business, and our design either enables or blocks that connection.</p>
           </div>
 
-          {/* Visual 4 Placeholder */}
-          <div className="mt-12 mb-12">
-            <div className="w-full h-64 md:h-80 bg-container rounded-lg shadow-lg flex items-center justify-center border border-secondary-gray">
-              <div className="text-center text-secondary-gray">
-                <div className="text-lg text-secondary-gray mb-2">Visual 4</div>
-                <div className="text-sm max-w-md">Human Element - Photo or illustration showing the real impact with merchants and customers using the system</div>
-              </div>
-            </div>
-          </div>
         </div>
       </section>
 

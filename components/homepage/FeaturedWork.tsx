@@ -12,6 +12,18 @@ const featuredCaseStudies = [
       { value: '88+', label: 'Active Merchant Programs' },
       { value: '190,000+', label: 'Total Member Signups' }
     ]
+  },
+  {
+    slug: 'ai-design-review',
+    title: "I Cloned My Boss's Design Reviews (And She Actually Loved It)",
+    subtitle: 'Eliminating CTO review delays by systematically capturing institutional design knowledge',
+    excerpt: 'Our CTO gave excellent design feedback, but her schedule created 2-3 day delays for every iteration. I built an AI clone of her review style that eliminated design bottlenecks while maintaining quality standards.',
+    image: null,
+    metrics: [
+      { value: '50%', label: 'Reduction in CTO Comments' },
+      { value: '2-3 days', label: 'Review Delays Eliminated' },
+      { value: '40%', label: 'Faster Feature Delivery' }
+    ]
   }
 ]
 

@@ -20,7 +20,7 @@ export const CaseStudyCard = ({ caseStudy }: CaseStudyCardProps) => {
     <Link href={`/${caseStudy.slug}`} className="group block">
       <article className="transition-all duration-300">
         {/* Hero Image */}
-        {caseStudy.image ? (
+        {caseStudy.image && (
           <div className="h-48 sm:h-64 md:h-80 overflow-hidden rounded-lg mb-8 relative">
             <Image
               src={caseStudy.image}
@@ -30,14 +30,6 @@ export const CaseStudyCard = ({ caseStudy }: CaseStudyCardProps) => {
               sizes="(max-width: 640px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 1024px"
               className="object-cover transition-transform group-hover:scale-105"
             />
-            <div className="absolute inset-0 bg-black/5 group-hover:bg-black/10 transition-colors" />
-          </div>
-        ) : (
-          <div className="h-48 sm:h-64 md:h-80 bg-container overflow-hidden flex items-center justify-center relative rounded-lg mb-8">
-            <div className="text-center text-secondary-gray">
-              <div className="text-base mb-2">Project Hero Image</div>
-              <div className="text-sm">{caseStudy.title}</div>
-            </div>
             <div className="absolute inset-0 bg-black/5 group-hover:bg-black/10 transition-colors" />
           </div>
         )}
