@@ -11,6 +11,26 @@ export default function AIDesignReview() {
         </p>
       </div>
 
+      {/* Hero Image */}
+      <div className="max-w-4xl mx-auto px-6 mb-16">
+        <div className="w-full">
+          <Image
+            src="/images/projects/clone-hero.png"
+            alt="Left side shows thousands of collected CTO comments from Figma, right side shows the AI bot interface that learned to replicate her feedback style and tone"
+            width={800}
+            height={600}
+            quality={90}
+            sizes="(max-width: 640px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 800px"
+            className="w-full h-auto object-contain rounded-lg"
+          />
+        </div>
+        <div className="mt-4 text-center">
+          <p className="text-sm text-secondary-gray italic">
+            Transforming thousands of CTO comments into an AI that speaks and critiques just like her
+          </p>
+        </div>
+      </div>
+
       {/* Project Overview - Full Width White Section */}
       <section className="w-full py-16 bg-white shadow-lg">
         <div className="max-w-4xl mx-auto px-6">
@@ -56,6 +76,25 @@ export default function AIDesignReview() {
               <li>Used batch processing to handle the scale effectively</li>
               <li>Successfully scraped over 10,800 comments by the CTO or referring to the CTO&apos;s feedback</li>
             </ul>
+          </div>
+
+          {/* Figma Comments Extraction Visual */}
+          <div className="mt-12 mb-12">
+            <div className="w-full">
+              <Image
+                src="/images/projects/clone-v2.gif"
+                alt="Animated demonstration showing the extraction of design feedback comments from Figma files, displaying the process of gathering institutional knowledge from scattered comments across multiple design files"
+                width={800}
+                height={600}
+                quality={90}
+                className="w-full h-auto object-contain"
+              />
+              <div className="mt-4 text-center">
+                <p className="text-sm text-secondary-gray italic">
+                  Extracting years of design expertise from scattered Figma comments across 300+ files
+                </p>
+              </div>
+            </div>
           </div>
 
           <h3 className="text-foreground mb-4 mt-8">Part 2: Creating &ldquo;Design Review Assistant&rdquo;</h3>
@@ -108,6 +147,25 @@ export default function AIDesignReview() {
       <section className="w-full py-16 bg-white shadow-lg">
         <div className="max-w-4xl mx-auto px-6">
           <h2>Results & Organizational Impact</h2>
+          
+          {/* Results Visual */}
+          <div className="mt-12 mb-12">
+            <div className="w-full">
+              <Image
+                src="/images/projects/clone-v3.png"
+                alt="AI Design Review Assistant final implementation showing the comprehensive system that successfully eliminated review delays while maintaining expert-level feedback quality"
+                width={800}
+                height={600}
+                quality={90}
+                className="w-full h-auto object-contain"
+              />
+              <div className="mt-4 text-center">
+                <p className="text-sm text-secondary-gray italic">
+                  The final AI design review system that transformed our team&apos;s workflow and feedback process
+                </p>
+              </div>
+            </div>
+          </div>
           
           <h3 className="text-foreground mb-4 mt-8">Measurable Efficiency Gains</h3>
           <div className="max-w-none">
