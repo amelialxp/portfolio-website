@@ -202,7 +202,7 @@ export default function StorehubMembership() {
               />
               <div className="mt-4 text-center">
                 <p className="text-sm text-secondary-gray italic">
-                  Four reward types overview - Welcome, Birthday, Points Store, and Tier Upgrade rewards with merchant configuration options
+                  How membership works: easy setup with customization options, instant updates across platforms, and automated notifications that bring customers back
                 </p>
               </div>
             </div>

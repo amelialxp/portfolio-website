@@ -38,7 +38,7 @@ export default function About() {
 
             {/* Photo */}
             <div className="lg:order-2 flex justify-center lg:justify-end">
-              <div className="w-64 aspect-square rounded-3xl shadow-lg overflow-hidden flex-shrink-0">
+              <div className="w-64 aspect-square rounded-full shadow-lg overflow-hidden flex-shrink-0">
                 <Image
                   src="/images/projects/about.jpg"
                   alt="Amelia Liw - Professional Photo"
