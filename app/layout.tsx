@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Spectral, Borel } from 'next/font/google'
 import './globals.css'
 import { Header, Footer } from '@/components/layout'
+import { Analytics } from '@vercel/analytics/react'
 
 const spectral = Spectral({ 
   subsets: ['latin'],
@@ -60,6 +61,7 @@ export default function RootLayout({
           </main>
           <Footer />
         </div>
+        <Analytics />
       </body>
     </html>
   )
