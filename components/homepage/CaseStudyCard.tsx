@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import { ArrowRight } from 'lucide-react'
+import { Tag } from '../ui/Tag'
 
 interface CaseStudyMetadata {
   slug: string
@@ -9,6 +10,7 @@ interface CaseStudyMetadata {
   excerpt: string
   image: string | null
   metrics: Array<{ value: string; label: string }> | null
+  tags?: string[]
 }
 
 interface CaseStudyCardProps {
@@ -41,9 +43,20 @@ export const CaseStudyCard = ({ caseStudy }: CaseStudyCardProps) => {
             <h3>
               {caseStudy.title}
             </h3>
-            <p className="font-spectral text-lg text-secondary-gray mb-8">
+            <p className="font-spectral text-lg text-secondary-gray mb-4">
               {caseStudy.subtitle}
             </p>
+
+            {/* Tags */}
+            {caseStudy.tags && caseStudy.tags.length > 0 && (
+              <div className="flex flex-wrap gap-2 mb-8">
+                {caseStudy.tags.map((tag, index) => (
+                  <Tag key={index}>
+                    {tag}
+                  </Tag>
+                ))}
+              </div>
+            )}
 
             {/* Business Metrics */}
             {caseStudy.metrics && (
@@ -62,10 +75,6 @@ export const CaseStudyCard = ({ caseStudy }: CaseStudyCardProps) => {
                 </div>
               </div>
             )}
-
-            <p className="font-spectral text-foreground leading-relaxed mb-8">
-              {caseStudy.excerpt}
-            </p>
           </div>
 
           {/* Read More Link */}
