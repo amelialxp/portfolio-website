@@ -15,7 +15,7 @@ export default function StorehubMembership() {
       <div className="max-w-4xl mx-auto px-6 mb-16">
         <div className="w-full">
           <Image
-            src="/images/projects/storehub-hero.png"
+            src="/images/projects/storehub-membership/storehub-hero.png"
             alt="StoreHub Membership System Overview showing the integrated experience across POS, mobile, and web platforms"
             width={800}
             height={600}
@@ -74,7 +74,7 @@ export default function StorehubMembership() {
             <div className="mt-8 md:mt-0">
               <div className="w-full">
                 <Image
-                  src="/images/projects/membership-v1.png"
+                  src="/images/projects/storehub-membership/membership-v1.png"
                   alt="Iceberg diagram illustrating the hidden complexity beneath StoreHub's membership system - showing visible customer touchpoints above the surface while revealing the intricate technical architecture, data flows, and system integrations required beneath to orchestrate a seamless membership experience"
                   width={600}
                   height={800}
@@ -121,7 +121,7 @@ export default function StorehubMembership() {
             <div className="mt-8 mb-8">
               <div className="w-full">
                 <Image
-                  src="/images/projects/membership-v2.png"
+                  src="/images/projects/storehub-membership/membership-v2.png"
                   alt="Customer Journey by Merchant Type showing side-by-side enrollment flows - F&B merchants using QR ordering auto-enrollment versus retail merchants using POS-based QR codes and receipt options"
                   width={800}
                   height={600}
@@ -152,7 +152,7 @@ export default function StorehubMembership() {
           <div className="mt-12 mb-12">
             <div className="w-full">
               <Image
-                src="/images/projects/membership-v2-chart.png"
+                src="/images/projects/storehub-membership/membership-v2-chart.png"
                 alt="Data visualization chart showing member signup patterns across different enrollment pathways, demonstrating the effectiveness of the multi-pathway approach with distinct usage patterns by merchant type"
                 width={800}
                 height={600}
@@ -193,7 +193,7 @@ export default function StorehubMembership() {
           <div className="mt-12 mb-12">
             <div className="w-full">
               <Image
-                src="/images/projects/membership-v3.png"
+                src="/images/projects/storehub-membership/membership-v3.png"
                 alt="Reward Types Overview showing four panels for Welcome, Birthday, Points Store, and Tier Upgrade rewards with configuration options and merchant customization capabilities"
                 width={800}
                 height={600}

@@ -6,7 +6,7 @@ const featuredCaseStudies = [
     title: 'StoreHub Membership',
     subtitle: 'Integrating Loyalty Across POS, Mobile, and Web',
     excerpt: 'StoreHub membership had to work across multiple platforms while maintaining each platform existing user patterns. The challenge was orchestrating a cohesive experience across POS checkout flows, mobile ordering, and QR table ordering.',
-    image: '/images/projects/storehub-hero.png',
+    image: '/images/projects/storehub-membership/storehub-hero.png',
     tags: ['2024-2025', 'Cross-Platform', 'Systems Design', 'Product Design & Ownership'],
     metrics: [
       { value: '4,350+', label: 'Monthly Member Signups' },
@@ -19,7 +19,7 @@ const featuredCaseStudies = [
     title: "I Cloned My Boss's Design Reviews (And She Actually Loved It)",
     subtitle: 'From 3-day delays to instant feedback using AI',
     excerpt: 'Our CTO gave excellent design feedback, but her schedule created 2-3 day delays for every iteration. I built an AI clone of her review style that eliminated design bottlenecks while maintaining quality standards.',
-    image: '/images/projects/clone-hero.png',
+    image: '/images/projects/ai-design-review/clone-hero.png',
     tags: ['2025', 'AI-Assisted Coding', 'Process Improvement', 'LLMs'],
     metrics: [
       { value: '50%', label: 'Reduction in CTO Comments' },

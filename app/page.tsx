@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { ArrowRight } from 'lucide-react'
 import { FeaturedWork } from '@/components/homepage/FeaturedWork'
+import { OlderCaseStudies } from '@/components/homepage/OlderCaseStudies'
 
 export default function Home() {
   return (
@@ -28,6 +29,9 @@ export default function Home() {
 
       {/* Case Studies Preview */}
       <FeaturedWork />
+      
+      {/* Older Case Studies */}
+      <OlderCaseStudies />
     </>
   )
 }

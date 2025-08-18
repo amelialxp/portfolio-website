@@ -7,7 +7,7 @@ export default function AIDesignReview() {
       <div className="max-w-4xl mx-auto px-6 pb-16">
         <h1>I Cloned My Boss&apos;s Design Reviews (And She Actually Loved It)</h1>
         <p className="text-lg text-foreground mb-12 max-w-3xl">
-          Eliminating CTO review delays by systematically capturing institutional design knowledge
+          From 3-day delays to instant feedback using AI
         </p>
       </div>
 
@@ -15,7 +15,7 @@ export default function AIDesignReview() {
       <div className="max-w-4xl mx-auto px-6 mb-16">
         <div className="w-full">
           <Image
-            src="/images/projects/clone-hero.png"
+            src="/images/projects/ai-design-review/clone-hero.png"
             alt="Left side shows thousands of collected CTO comments from Figma, right side shows the AI bot interface that learned to replicate her feedback style and tone"
             width={800}
             height={600}
@@ -82,7 +82,7 @@ export default function AIDesignReview() {
           <div className="mt-12 mb-12">
             <div className="w-full">
               <Image
-                src="/images/projects/clone-v2.gif"
+                src="/images/projects/ai-design-review/clone-v2.gif"
                 alt="Animated demonstration showing the extraction of design feedback comments from Figma files, displaying the process of gathering institutional knowledge from scattered comments across multiple design files"
                 width={800}
                 height={600}
@@ -126,7 +126,7 @@ export default function AIDesignReview() {
           <div className="mt-12 mb-12">
             <div className="w-full">
               <Image
-                src="/images/projects/clone-v1.png"
+                src="/images/projects/ai-design-review/clone-v1.png"
                 alt="Screenshot showing the AI design review assistant in action, demonstrating how it captured the CTO's authentic feedback style including personality quirks that sometimes created unexpected responses"
                 width={800}
                 height={600}
@@ -152,7 +152,7 @@ export default function AIDesignReview() {
           <div className="mt-12 mb-12">
             <div className="w-full">
               <Image
-                src="/images/projects/clone-v3.png"
+                src="/images/projects/ai-design-review/clone-v3.png"
                 alt="AI Design Review Assistant final implementation showing the comprehensive system that successfully eliminated review delays while maintaining expert-level feedback quality"
                 width={800}
                 height={600}
