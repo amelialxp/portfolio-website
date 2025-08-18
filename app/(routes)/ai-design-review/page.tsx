@@ -4,7 +4,7 @@ export default function AIDesignReview() {
   return (
     <div className="pt-32">
       {/* Hero Section */}
-      <div className="max-w-4xl mx-auto px-6 pb-16">
+      <div className="max-w-4xl mx-auto px-6 pb-12">
         <h1>I Cloned My Boss&apos;s Design Reviews (And She Actually Loved It)</h1>
         <p className="text-lg text-foreground mb-12 max-w-3xl">
           From 3-day delays to instant feedback using AI
@@ -12,14 +12,15 @@ export default function AIDesignReview() {
       </div>
 
       {/* Hero Image */}
-      <div className="max-w-4xl mx-auto px-6 mb-16">
+      <div className="max-w-4xl mx-auto px-6 mb-12">
         <div className="w-full">
           <Image
             src="/images/projects/ai-design-review/clone-hero.png"
             alt="Left side shows thousands of collected CTO comments from Figma, right side shows the AI bot interface that learned to replicate her feedback style and tone"
             width={800}
             height={600}
-            quality={90}
+            quality={100}
+            priority={true}
             sizes="(max-width: 640px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 800px"
             className="w-full h-auto object-contain rounded-lg"
           />
@@ -32,7 +33,7 @@ export default function AIDesignReview() {
       </div>
 
       {/* Project Overview - Full Width White Section */}
-      <section className="w-full py-16 bg-white shadow-lg">
+      <section className="w-full py-12 bg-white shadow-lg">
         <div className="max-w-4xl mx-auto px-6">
           <h2>Project Overview</h2>
           <div className="max-w-none">
@@ -46,7 +47,7 @@ export default function AIDesignReview() {
 
       {/* Design Challenge & Approach */}
       <div className="max-w-4xl mx-auto px-6">
-        <section className="py-16">
+        <section className="py-12">
           <h2>Design Challenge & Approach</h2>
           
           <h3 className="text-foreground mb-4 mt-8">The Challenge</h3>
@@ -63,7 +64,7 @@ export default function AIDesignReview() {
 
       {/* Technical Process & Solutions */}
       <div className="max-w-4xl mx-auto px-6">
-        <section className="py-16">
+        <section className="py-12">
           <h2>Technical Process & Solutions</h2>
           
           <h3 className="text-foreground mb-4 mt-8">Part 1: Knowledge Extraction</h3>
@@ -86,7 +87,7 @@ export default function AIDesignReview() {
                 alt="Animated demonstration showing the extraction of design feedback comments from Figma files, displaying the process of gathering institutional knowledge from scattered comments across multiple design files"
                 width={800}
                 height={600}
-                quality={90}
+                quality={100}
                 className="w-full h-auto object-contain"
               />
               <div className="mt-4 text-center">
@@ -113,7 +114,7 @@ export default function AIDesignReview() {
 
       {/* Plot Twist */}
       <div className="max-w-4xl mx-auto px-6">
-        <section className="py-16">
+        <section className="py-12">
           <h2>Plot Twist: When Your AI Gets Too Realistic 🤖</h2>
           
           <div className="max-w-none">
@@ -130,7 +131,7 @@ export default function AIDesignReview() {
                 alt="Screenshot showing the AI design review assistant in action, demonstrating how it captured the CTO's authentic feedback style including personality quirks that sometimes created unexpected responses"
                 width={800}
                 height={600}
-                quality={90}
+                quality={100}
                 className="w-full h-auto object-contain"
               />
               <div className="mt-4 text-center">
@@ -144,7 +145,7 @@ export default function AIDesignReview() {
       </div>
 
       {/* Results & Organizational Impact - Full Width White Section */}
-      <section className="w-full py-16 bg-white shadow-lg">
+      <section className="w-full py-12 bg-white shadow-lg">
         <div className="max-w-4xl mx-auto px-6">
           <h2>Results & Organizational Impact</h2>
           
@@ -156,7 +157,7 @@ export default function AIDesignReview() {
                 alt="AI Design Review Assistant final implementation showing the comprehensive system that successfully eliminated review delays while maintaining expert-level feedback quality"
                 width={800}
                 height={600}
-                quality={90}
+                quality={100}
                 className="w-full h-auto object-contain"
               />
               <div className="mt-4 text-center">

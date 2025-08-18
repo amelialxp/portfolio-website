@@ -10,8 +10,19 @@ const featuredCaseStudies = [
     tags: ['2024-2025', 'Cross-Platform', 'Systems Design', 'Product Design & Ownership'],
     metrics: [
       { value: '4,350+', label: 'Monthly Member Signups' },
-      { value: '88+', label: 'Active Merchant Programs' },
-      { value: '190,000+', label: 'Total Member Signups' }
+      { value: '88+', label: 'Active Merchant Programs' }
+    ]
+  },
+  {
+    slug: 'bo-design-system',
+    title: 'Building a Design System That Actually Gets Used',
+    subtitle: 'Eliminating systematic waste while maintaining feature delivery',
+    excerpt: 'Transformed BackOffice from dual-framework chaos to unified component standards while maintaining daily product delivery. Established mobile responsive framework covering 50% of traffic previously locked out of critical workflows.',
+    image: '/images/projects/bo-design-system/bo-ds-hero.png',
+    tags: ['2024', 'Systems Design', 'Cross-Platform', 'Mobile-First', 'Process Optimization'],
+    metrics: [
+      { value: '70%', label: 'Platform Components Standardized' },
+      { value: '50%', label: 'Mobile Traffic Now Supported' }
     ]
   },
   {
@@ -23,8 +34,7 @@ const featuredCaseStudies = [
     tags: ['2025', 'AI-Assisted Coding', 'Process Improvement', 'LLMs'],
     metrics: [
       { value: '50%', label: 'Reduction in CTO Comments' },
-      { value: '2-3 days', label: 'Review Delays Eliminated' },
-      { value: '40%', label: 'Faster Feature Delivery' }
+      { value: '2-3 days', label: 'Review Delays Eliminated' }
     ]
   }
 ]

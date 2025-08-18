@@ -4,7 +4,7 @@ export default function StorehubMembership() {
   return (
     <div className="pt-32">
       {/* Hero Section */}
-      <div className="max-w-4xl mx-auto px-6 pb-16">
+      <div className="max-w-4xl mx-auto px-6 pb-12">
         <h1>StoreHub Membership</h1>
         <p className="text-lg text-foreground mb-12 max-w-3xl">
           Integrating Loyalty Across POS, Mobile, and Web
@@ -12,14 +12,15 @@ export default function StorehubMembership() {
       </div>
 
       {/* Hero Image */}
-      <div className="max-w-4xl mx-auto px-6 mb-16">
+      <div className="max-w-4xl mx-auto px-6 mb-12">
         <div className="w-full">
           <Image
             src="/images/projects/storehub-membership/storehub-hero.png"
             alt="StoreHub Membership System Overview showing the integrated experience across POS, mobile, and web platforms"
             width={800}
             height={600}
-            quality={90}
+            quality={100}
+            priority={true}
             sizes="(max-width: 640px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 800px"
             className="w-full h-auto object-contain rounded-lg"
           />
@@ -32,7 +33,7 @@ export default function StorehubMembership() {
       </div>
 
       {/* Project Overview - Full Width White Section */}
-      <section className="w-full py-16 bg-white shadow-lg">
+      <section className="w-full py-12 bg-white shadow-lg">
         <div className="max-w-4xl mx-auto px-6">
           <h2>Project Overview</h2>
           <div className="max-w-none">
@@ -47,8 +48,21 @@ export default function StorehubMembership() {
 
       {/* Design Challenge & Approach */}
       <div className="max-w-4xl mx-auto px-6">
-        <section className="py-16">
+        <section className="py-12">
           <h2>Design Challenge & Approach</h2>
+          
+          <h3 className="text-foreground mb-4 mt-8">What is StoreHub Membership?</h3>
+          <div className="max-w-none mb-12">
+            <p className="text-foreground mb-4 leading-relaxed">StoreHub Membership is a comprehensive loyalty program system that enables merchants to create customized customer retention programs across POS, mobile ordering, and web platforms. The system consists of four interconnected components that work together to drive customer engagement:</p>
+            
+            <h4 className="text-foreground mb-3 mt-6 font-semibold">Core Components:</h4>
+            <ul className="list-disc pl-6 mb-4 text-foreground space-y-3">
+              <li><strong className="text-foreground">Points System</strong> - The foundation where customers earn points based on spending (e.g., RM1 = 10 points)</li>
+              <li><strong className="text-foreground">Tier System</strong> - Progressive status levels (Member → Silver → Gold → Platinum) that unlock better benefits</li>
+              <li><strong className="text-foreground">Rewards System</strong> - Four types of automated rewards: Welcome bonuses, birthday rewards, points redemption catalog, and tier upgrade celebrations</li>
+              <li><strong className="text-foreground">Cashback (optional)</strong> - Immediate percentage-based rewards that complement the points system</li>
+            </ul>
+          </div>
           
           <div className="grid md:grid-cols-2 gap-12 items-start mt-8">
             {/* Left Column - Content */}
@@ -78,7 +92,7 @@ export default function StorehubMembership() {
                   alt="Iceberg diagram illustrating the hidden complexity beneath StoreHub's membership system - showing visible customer touchpoints above the surface while revealing the intricate technical architecture, data flows, and system integrations required beneath to orchestrate a seamless membership experience"
                   width={600}
                   height={800}
-                  quality={90}
+                  quality={100}
                   className="w-full h-auto object-contain"
                 />
                 <div className="mt-4 text-center">
@@ -94,7 +108,7 @@ export default function StorehubMembership() {
 
       {/* Design Process & Solutions */}
       <div className="max-w-4xl mx-auto px-6">
-        <section className="py-16">
+        <section className="py-12">
           <h2>Design Process & Solutions</h2>
           
           <h3 className="text-foreground mb-4 mt-8">Discovery: What do Merchants actually Want vs Need?</h3>
@@ -125,7 +139,7 @@ export default function StorehubMembership() {
                   alt="Customer Journey by Merchant Type showing side-by-side enrollment flows - F&B merchants using QR ordering auto-enrollment versus retail merchants using POS-based QR codes and receipt options"
                   width={800}
                   height={600}
-                  quality={90}
+                  quality={100}
                   className="w-full h-auto object-contain"
                 />
                 <div className="mt-4 text-center">
@@ -156,7 +170,7 @@ export default function StorehubMembership() {
                 alt="Data visualization chart showing member signup patterns across different enrollment pathways, demonstrating the effectiveness of the multi-pathway approach with distinct usage patterns by merchant type"
                 width={800}
                 height={600}
-                quality={90}
+                quality={100}
                 className="w-full h-auto object-contain"
               />
               <div className="mt-4 text-center">
@@ -197,7 +211,7 @@ export default function StorehubMembership() {
                 alt="Reward Types Overview showing four panels for Welcome, Birthday, Points Store, and Tier Upgrade rewards with configuration options and merchant customization capabilities"
                 width={800}
                 height={600}
-                quality={90}
+                quality={100}
                 className="w-full h-auto object-contain"
               />
               <div className="mt-4 text-center">
@@ -212,7 +226,7 @@ export default function StorehubMembership() {
 
       {/* Cross-Functional Design Leadership */}
       <div className="max-w-4xl mx-auto px-6">
-        <section className="py-16">
+        <section className="py-12">
           <h2>Cross-Functional Design Leadership</h2>
           
           <h3 className="text-foreground mb-4 mt-8">Becoming the Go-To Design Expert</h3>
@@ -228,7 +242,7 @@ export default function StorehubMembership() {
       </div>
 
       {/* Results & Design Impact - Full Width White Section */}
-      <section className="w-full py-16 bg-white shadow-lg">
+      <section className="w-full py-12 bg-white shadow-lg">
         <div className="max-w-4xl mx-auto px-6">
           <h2>Results & Design Impact</h2>
           
@@ -274,7 +288,7 @@ export default function StorehubMembership() {
 
       {/* Future Opportunities */}
       <div className="max-w-4xl mx-auto px-6 pb-24">
-        <section className="py-16">
+        <section className="py-12">
           <h2>Future Opportunities</h2>
           
           <h3 className="text-foreground mb-4 mt-8">Addressing Remaining Friction Points</h3>
