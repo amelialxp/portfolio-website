@@ -17,7 +17,7 @@ export default function Home() {
           </p>
 
           {/* Find out more link */}
-          <Link href="/about" className="group inline-flex items-center gap-2 text-secondary-navy relative">
+          <Link href="/profile" className="group inline-flex items-center gap-2 text-secondary-navy relative">
             <span className="font-spectral relative">
               More About Amelia Liw
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary-yellow group-hover:w-full transition-all duration-300"></span>

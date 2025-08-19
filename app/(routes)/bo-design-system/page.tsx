@@ -61,6 +61,24 @@ export default function DesignSystem() {
             <p className="text-foreground mb-4 leading-relaxed">BackOffice had evolved over years, with two different frameworks coexisting across the platform, referred to as &quot;1.0&quot; and &quot;2.0&quot;. Some pages ran both frameworks simultaneously. The modernization directive was clear: new pages should use 2.0, but with daily feature delivery pressure, implementation was inconsistent across designers and developers.</p>
           </div>
 
+          {/* v1 Image */}
+          <div className="w-full my-8">
+            <Image
+              src="/images/projects/bo-design-system/bo-ds-v1.png"
+              alt="Button anarchy: Every designer picked their own style"
+              width={800}
+              height={600}
+              quality={100}
+              sizes="(max-width: 640px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 800px"
+              className="w-full h-auto object-contain rounded-lg"
+            />
+            <div className="mt-4 text-center">
+              <p className="text-sm text-secondary-gray italic">
+                Button anarchy: Every designer picked their own style
+              </p>
+            </div>
+          </div>
+
           <h3 className="text-foreground mb-4 mt-8">The Design Debt Pile-on</h3>
           <div className="max-w-none">
             <p className="text-foreground mb-4 leading-relaxed">Designers in the team had historically had to ship fast under intense time pressure. Sometimes this meant working directly from screenshots with quick markup - &quot;add button here&quot; or &quot;new section between this and this&quot; - rather than comprehensive Figma documentation. While this kept features moving, it created technical debt that slowed down future work.</p>
@@ -72,6 +90,26 @@ export default function DesignSystem() {
             <p className="text-foreground mb-4 leading-relaxed">50% of BackOffice traffic came from mobile devices, but critical merchant workflows were completely unusable on phones. Even though some stakeholders argued that configuration wasn&apos;t something done on your phone, the reality was many Malaysian business owners either don&apos;t have computers or don&apos;t have time to sit behind one during busy business hours.</p>
           </div>
         </section>
+      </div>
+
+      {/* v2 Image */}
+      <div className="max-w-4xl mx-auto px-6">
+        <div className="w-full my-12">
+          <Image
+            src="/images/projects/bo-design-system/bo-ds-v2.png"
+            alt="53% of merchants accessed BackOffice on mobile, but got desktop-only interfaces"
+            width={800}
+            height={600}
+            quality={100}
+            sizes="(max-width: 640px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 800px"
+            className="w-full h-auto object-contain rounded-lg"
+          />
+          <div className="mt-4 text-center">
+            <p className="text-sm text-secondary-gray italic">
+              53% of merchants accessed BackOffice on mobile, but got desktop-only interfaces
+            </p>
+          </div>
+        </div>
       </div>
 
       {/* The Approach */}
@@ -124,6 +162,24 @@ export default function DesignSystem() {
             <p className="text-foreground mb-4 leading-relaxed">For every other feature the product design team worked on, I made sure we had to specify how content would properly flow in mobile view.</p>
           </div>
 
+          {/* v3 Image */}
+          <div className="w-full my-8">
+            <Image
+              src="/images/projects/bo-design-system/bo-ds-v3.png"
+              alt="The Customer Details page was one of the pages that has been successfully rebuilt in a properly responsive manner"
+              width={800}
+              height={600}
+              quality={100}
+              sizes="(max-width: 640px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 800px"
+              className="w-full h-auto object-contain rounded-lg"
+            />
+            <div className="mt-4 text-center">
+              <p className="text-sm text-secondary-gray italic">
+                The Customer Details page was one of the pages that has been successfully rebuilt in a properly responsive manner
+              </p>
+            </div>
+          </div>
+
           <h3 className="text-foreground mb-4 mt-8">Documentation Evolution</h3>
           <div className="max-w-none">
             <h4 className="text-foreground mb-3 mt-6 font-semibold">From Screenshots to Proper Components</h4>
@@ -135,12 +191,32 @@ export default function DesignSystem() {
         </section>
       </div>
 
+      {/* v4 Image */}
+      <div className="max-w-4xl mx-auto px-6">
+        <div className="w-full my-12">
+          <Image
+            src="/images/projects/bo-design-system/bo-ds-v4.png"
+            alt="Having components properly documented for both designers and developers is a big step towards creating a uniform experience for users"
+            width={800}
+            height={600}
+            quality={100}
+            sizes="(max-width: 640px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 800px"
+            className="w-full h-auto object-contain rounded-lg"
+          />
+          <div className="mt-4 text-center">
+            <p className="text-sm text-secondary-gray italic">
+              Having components properly documented for both designers and developers is a big step towards creating a uniform experience for users
+            </p>
+          </div>
+        </div>
+      </div>
+
       {/* Results & Impact - Full Width White Section */}
       <section className="w-full py-12 bg-white shadow-lg">
         <div className="max-w-4xl mx-auto px-6">
           <h2>Results & Design Impact</h2>
           
-          <div className="grid grid-cols-3 gap-8 mb-12">
+          <div className="grid grid-cols-2 gap-12 mb-12">
             <div className="text-left">
               <h3 className="mb-2">
                 70%
@@ -155,14 +231,6 @@ export default function DesignSystem() {
               </h3>
               <div className="font-spectral text-sm text-secondary-gray leading-tight">
                 Mobile Traffic Now Supported
-              </div>
-            </div>
-            <div className="text-left">
-              <h3 className="mb-2">
-                7 to 4
-              </h3>
-              <div className="font-spectral text-sm text-secondary-gray leading-tight">
-                Button Variations Reduced
               </div>
             </div>
           </div>

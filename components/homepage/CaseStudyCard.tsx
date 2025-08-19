@@ -23,14 +23,15 @@ export const CaseStudyCard = ({ caseStudy }: CaseStudyCardProps) => {
       <article className="transition-all duration-300">
         {/* Hero Image */}
         {caseStudy.image && (
-          <div className="h-48 sm:h-64 md:h-80 overflow-hidden rounded-lg mb-8 relative">
+          <div className="overflow-hidden rounded-lg mb-8 relative">
             <Image
               src={caseStudy.image}
               alt={caseStudy.title}
-              fill
-              quality={90}
-              sizes="(max-width: 640px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 1024px"
-              className="object-cover transition-transform group-hover:scale-105"
+              width={800}
+              height={600}
+              quality={100}
+              sizes="(max-width: 640px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 800px"
+              className="w-full h-auto object-contain transition-transform group-hover:scale-105"
             />
             <div className="absolute inset-0 bg-black/5 group-hover:bg-black/10 transition-colors" />
           </div>

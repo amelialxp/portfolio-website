@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import { Linkedin } from 'lucide-react'
 
-export default function About() {
+export default function Profile() {
   return (
     <>
       {/* Page Header */}

@@ -21,7 +21,7 @@ export function Header() {
         <div className="flex gap-8">
           <Link href="/" className="font-spectral text-secondary-navy hover:text-secondary-navy transition-colors group relative">
             <span className="relative">
-              Work
+              Projects
               <span 
                 className={`absolute bottom-0 left-0 h-0.5 bg-primary-yellow transition-all duration-300 ${
                   isActiveRoute('/') && pathname === '/' 
@@ -31,12 +31,24 @@ export function Header() {
               ></span>
             </span>
           </Link>
-          <Link href="/about" className="font-spectral text-secondary-navy hover:text-secondary-navy transition-colors group relative">
+          <Link href="/posts" className="font-spectral text-secondary-navy hover:text-secondary-navy transition-colors group relative">
             <span className="relative">
-              About
+              Posts
               <span 
                 className={`absolute bottom-0 left-0 h-0.5 bg-primary-yellow transition-all duration-300 ${
-                  isActiveRoute('/about') 
+                  isActiveRoute('/posts') 
+                    ? 'w-full' 
+                    : 'w-0 group-hover:w-full'
+                }`}
+              ></span>
+            </span>
+          </Link>
+          <Link href="/profile" className="font-spectral text-secondary-navy hover:text-secondary-navy transition-colors group relative">
+            <span className="relative">
+              Profile
+              <span 
+                className={`absolute bottom-0 left-0 h-0.5 bg-primary-yellow transition-all duration-300 ${
+                  isActiveRoute('/profile') 
                     ? 'w-full' 
                     : 'w-0 group-hover:w-full'
                 }`}

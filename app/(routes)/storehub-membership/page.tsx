@@ -246,7 +246,7 @@ export default function StorehubMembership() {
         <div className="max-w-4xl mx-auto px-6">
           <h2>Results & Design Impact</h2>
           
-          <div className="grid grid-cols-3 gap-8 mb-12">
+          <div className="grid grid-cols-2 gap-12 mb-12">
             <div className="text-left">
               <h3 className="mb-2">
                 4,350+
@@ -261,14 +261,6 @@ export default function StorehubMembership() {
               </h3>
               <div className="font-spectral text-sm text-secondary-gray leading-tight">
                 Active Merchant Programs
-              </div>
-            </div>
-            <div className="text-left">
-              <h3 className="mb-2">
-                190,000+
-              </h3>
-              <div className="font-spectral text-sm text-secondary-gray leading-tight">
-                Total Member Signups
               </div>
             </div>
           </div>
