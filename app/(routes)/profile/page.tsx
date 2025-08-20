@@ -1,5 +1,19 @@
 import Image from 'next/image'
 import { Linkedin } from 'lucide-react'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  robots: {
+    index: false,
+    follow: false,
+    noarchive: true,
+    nosnippet: true,
+    googleBot: {
+      index: false,
+      follow: false,
+    },
+  },
+}
 
 export default function Profile() {
   return (
