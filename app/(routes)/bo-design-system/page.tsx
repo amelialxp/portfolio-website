@@ -19,7 +19,7 @@ export default function DesignSystem() {
     <div className="pt-32">
       {/* Hero Section */}
       <div className="max-w-4xl mx-auto px-6 pb-12">
-        <h1>Building a Design System That Actually Gets Used</h1>
+        <h1>Establishing Design Standards That Actually Get Used</h1>
         <p className="text-lg text-foreground mb-12 max-w-3xl">
           Eliminating systematic waste while maintaining feature delivery
         </p>
