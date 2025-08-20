@@ -44,7 +44,7 @@ export default function Profile() {
                   </p>
                   
                   <p>
-                    {" I approach both design and life with the same philosophy: stay curious, always listen, and never be afraid of looking like the 'dumbest' person in the room."}
+                    {` I approach both design and life with the same philosophy: stay curious, always listen, and never be afraid of looking like the "dumbest" person in the room.`}
                   </p>
                 </div>
               </div>
