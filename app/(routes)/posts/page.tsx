@@ -54,8 +54,9 @@ export default function PostsPage() {
         </header>
 
         {/* Featured Post - Latest Post */}
-        <article className="bg-container rounded-lg border-2 border-accent-yellow/20 overflow-hidden hover:shadow-xl hover:border-accent-yellow/40 transition-all duration-300 group mb-20">
-          <div className="flex flex-col lg:flex-row">
+        <Link href={`/posts/${featuredPost.slug}`} className="block">
+          <article className="bg-container rounded-lg border-2 border-accent-yellow/20 overflow-hidden hover:shadow-xl hover:border-accent-yellow/40 transition-all duration-300 group mb-20 cursor-pointer">
+            <div className="flex flex-col lg:flex-row">
             {/* Featured Image - 50% width on desktop */}
             <div className="lg:w-1/2 aspect-video lg:aspect-[4/3] relative">
               <Image
@@ -73,13 +74,8 @@ export default function PostsPage() {
               <div className="text-sm text-secondary-gray mb-4">
                 {featuredPost.date} • {featuredPost.readTime}
               </div>
-              <h2 className="text-3xl md:text-4xl font-spectral text-foreground mb-4 leading-tight">
-                <Link 
-                  href={`/posts/${featuredPost.slug}`} 
-                  className="group-hover:text-secondary-navy transition-colors"
-                >
-                  {featuredPost.title}
-                </Link>
+              <h2 className="text-3xl md:text-4xl font-spectral text-foreground mb-4 leading-tight group-hover:text-secondary-navy transition-colors">
+                {featuredPost.title}
               </h2>
               <p className="text-secondary-gray mb-6 leading-relaxed text-lg">
                 {featuredPost.extendedPreview}
@@ -95,19 +91,17 @@ export default function PostsPage() {
                   ))}
                 </div>
               )}
-              <Link 
-                href={`/posts/${featuredPost.slug}`} 
-                className="text-secondary-navy relative inline-flex items-center gap-2"
-              >
+              <div className="text-secondary-navy relative inline-flex items-center gap-2">
                 <span className="font-spectral relative">
                   Read Full Article
                   <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary-yellow group-hover:w-full transition-all duration-300"></span>
                 </span>
                 <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
-              </Link>
+              </div>
             </div>
-          </div>
-        </article>
+            </div>
+          </article>
+        </Link>
 
         {/* Regular Posts - Horizontal Layout */}
         <div className="space-y-8">

@@ -7,7 +7,7 @@ const featuredCaseStudies = [
     subtitle: 'Integrating Loyalty Across POS, Mobile, and Web',
     excerpt: 'StoreHub membership had to work across multiple platforms while maintaining each platform existing user patterns. The challenge was orchestrating a cohesive experience across POS checkout flows, mobile ordering, and QR table ordering.',
     image: '/images/projects/storehub-membership/storehub-hero.png',
-    tags: ['2024-2025', 'Cross-Platform', 'Systems Design', 'Product Design & Ownership'],
+    tags: ['2024-2025', 'Cross-Platform Integration', 'Product Strategy', 'User Research', 'Technical Constraints'],
     metrics: [
       { value: '4,350+', label: 'Monthly Member Signups' },
       { value: '88+', label: 'Active Merchant Programs' }
@@ -19,7 +19,7 @@ const featuredCaseStudies = [
     subtitle: 'Eliminating systematic waste while maintaining feature delivery',
     excerpt: 'Transformed BackOffice from dual-framework chaos to unified component standards while maintaining daily product delivery. Established mobile responsive framework covering 50% of traffic previously locked out of critical workflows.',
     image: '/images/projects/bo-design-system/bo-ds-hero.png',
-    tags: ['2024', 'Systems Design', 'Cross-Platform', 'Mobile-First', 'Process Optimization'],
+    tags: ['2024', 'Design Systems', 'Mobile-First', 'Developer Collaboration', 'Incremental Change'],
     metrics: [
       { value: '70%', label: 'Platform Components Standardized' },
       { value: '50%', label: 'Mobile Traffic Now Supported' }

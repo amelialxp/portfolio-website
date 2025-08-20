@@ -38,6 +38,11 @@ export default function LessonsFirstYearDesignerPart3Article() {
               sizes="(max-width: 768px) 100vw, 896px"
             />
           </div>
+          <div className="mt-4 text-center">
+            <p className="text-sm text-secondary-gray italic">
+              From design handoffs to reality: managing expectations and improving processes
+            </p>
+          </div>
           <h1 className="text-3xl md:text-4xl font-spectral text-foreground mb-6 leading-tight">
             Lessons from my first two years as a Product Designer (3/3)
           </h1>
@@ -97,11 +102,16 @@ export default function LessonsFirstYearDesignerPart3Article() {
             <div className="aspect-video relative my-8 rounded-lg overflow-hidden">
               <Image
                 src="/images/posts/lfyd-p3/v1.png"
-                alt="Expectations vs Reality - wireframes comparison showing perfect designs vs messy implementation"
+                alt="Two sets of card UI. Top row captioned 'Expectations' with neatly created wireframes. Bottom row captioned 'Reality', with cards showing various errors and inconsistencies."
                 fill
                 className="object-cover"
                 sizes="(max-width: 768px) 100vw, 896px"
               />
+            </div>
+            <div className="mt-4 text-center">
+              <p className="text-sm text-secondary-gray italic">
+                Expectations vs Reality: Perfect wireframes versus real-world implementation challenges
+              </p>
             </div>
 
             <h3 className="text-xl md:text-2xl font-spectral text-foreground mb-3 mt-6 leading-tight">
@@ -136,15 +146,6 @@ export default function LessonsFirstYearDesignerPart3Article() {
               setting up your Figma file, and writing great specifications.
             </p>
 
-            <div className="bg-container border border-gray-200 rounded-lg p-6 my-8">
-              <p className="text-sm text-secondary-gray mb-2">
-                <strong>Alt text for cover image:</strong>
-              </p>
-              <p className="text-secondary-gray">
-                Two sets of card UI. Top row captioned "Expectations" with neatly created wireframes. 
-                Bottom row captioned "Reality", with cards showing various errors and inconsistencies.
-              </p>
-            </div>
           </div>
         </article>
 

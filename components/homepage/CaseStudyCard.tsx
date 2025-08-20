@@ -62,7 +62,7 @@ export const CaseStudyCard = ({ caseStudy }: CaseStudyCardProps) => {
             {/* Business Metrics */}
             {caseStudy.metrics && (
               <div className="mb-8">
-                <div className="grid grid-cols-3 gap-8">
+                <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
                   {caseStudy.metrics.map((metric, index) => (
                     <div key={index} className="text-left">
                       <h3 className="mb-2">
