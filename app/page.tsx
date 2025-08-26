@@ -13,7 +13,7 @@ export default function Home() {
            Amelia Liw
           </h1>
           <p className="font-spectral text-lg md:text-xl text-foreground max-w-3xl leading-relaxed mb-8">
-            {"A Senior Product Designer who is obsessively curious about 'how' and 'why' of everything UX."}
+            {"A Senior Product Designer driven by curiosity and vision, turning complex \"why\" and \"how\" questions into intuitive, business-ready experiences."}
           </p>
 
           {/* Find out more link */}

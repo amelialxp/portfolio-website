@@ -52,7 +52,7 @@ export default function StorehubMembership() {
           <h2>Project Overview</h2>
           <div className="max-w-none">
             <p className="text-foreground mb-4 leading-relaxed"><strong>Project:</strong> Designed membership system that integrates seamlessly across StoreHub&apos;s complex ecosystem while keeping merchant experience simple</p>
-            <p className="text-foreground mb-4 leading-relaxed"><strong>My Role:</strong> Senior Product Designer - owned merchant and consumer experience designs. Transitioned to PM role for Membership starting mid Q2 2025</p>
+            <p className="text-foreground mb-4 leading-relaxed"><strong>My Role:</strong> Senior Product Designer - led merchant and consumer experience designs, stepping into a Product Manager role for Membership in mid-Q2 2025.</p>
             <p className="text-foreground mb-4 leading-relaxed"><strong>Timeline:</strong> March 2024 - Present (V1 launched November 2024, ongoing systematic expansion)</p>
             <p className="text-foreground mb-4 leading-relaxed"><strong>Impact:</strong> StoreHub&apos;s Membership program currently has 4,350+ monthly member signups across 88+ active merchant programs</p>
             <p className="text-foreground mb-4 leading-relaxed"><strong>Platforms & Tools:</strong> Figma, StoreHub POS, Beep Mobile, QR Ordering, BackOffice</p>
@@ -67,7 +67,8 @@ export default function StorehubMembership() {
           
           <h3 className="text-foreground mb-4 mt-8">What is StoreHub Membership?</h3>
           <div className="max-w-none mb-12">
-            <p className="text-foreground mb-4 leading-relaxed">StoreHub Membership is a comprehensive loyalty program system that enables merchants to create customized customer retention programs across POS, mobile ordering, and web platforms. The system consists of four interconnected components that work together to drive customer engagement:</p>
+            <p className="text-foreground mb-4 leading-relaxed">StoreHub Membership is a comprehensive loyalty program system that enables merchants to create tailored customer retention programs across POS, mobile ordering, and web platforms. The system consists of four interconnected components that work together to drive customer engagement:
+</p>
             
             <h4 className="text-foreground mb-3 mt-6 font-semibold">Core Components:</h4>
             <ul className="list-disc pl-6 mb-4 text-foreground space-y-3">
@@ -81,9 +82,9 @@ export default function StorehubMembership() {
           <div className="grid md:grid-cols-2 gap-12 items-start mt-8">
             {/* Left Column - Content */}
             <div>
-              <h3 className="text-foreground mb-4">The Integration Complexity Problem</h3>
+              <h3 className="text-foreground mb-4">StoreHub's Integration Complexity Problem</h3>
               <div className="max-w-none">
-                <p className="text-foreground mb-4 leading-relaxed">StoreHub&apos;s membership had to work across multiple platforms while maintaining each platform&apos;s existing user patterns. I needed to orchestrate a cohesive experience across:</p>
+                <p className="text-foreground mb-4 leading-relaxed">StoreHub&apos;s membership had to work across multiple platforms while maintaining each platform&apos;s existing user patterns. My challenge was to orchestrate a cohesive, intuitive experience across:</p>
                 <ul className="list-disc pl-6 mb-4 text-foreground space-y-2">
                   <li><strong className="text-foreground">POS checkout flows</strong> where customers could join and redeem rewards</li>
                   <li><strong className="text-foreground">Beep mobile ordering</strong> with automatic membership enrollment</li>
@@ -94,7 +95,7 @@ export default function StorehubMembership() {
 
               <h3 className="text-foreground mb-4 mt-8">My Design Strategy</h3>
               <div className="max-w-none">
-                <p className="text-foreground mb-4 leading-relaxed">I approached this as a systems design challenge rather than individual feature design. My strategy was <strong className="text-foreground">&ldquo;complexity behind simplicity&rdquo;</strong> - leverage our integration advantages while keeping the merchant and customer experience intuitive.</p>
+                <p className="text-foreground mb-4 leading-relaxed">I approached this as a systems design challenge rather than an individual feature design. My strategy was <strong className="text-foreground">&ldquo;complexity behind simplicity&rdquo;</strong> - leveraging our integration advantages while keeping the merchant and customer experience intuitive.</p>
               </div>
             </div>
 
@@ -127,7 +128,7 @@ export default function StorehubMembership() {
           
           <h3 className="text-foreground mb-4 mt-8">Discovery: What do Merchants actually Want vs Need?</h3>
           <div className="max-w-none">
-            <p className="text-foreground mb-4 leading-relaxed">Through approx 8 merchant visits interviews conducted over a 3 month period, our team uncovered insights that shaped the entire design approach:</p>
+            <p className="text-foreground mb-4 leading-relaxed">Through a series of eight merchant interviews conducted over three months, our team uncovered critical insights that shaped the overall design strategy:</p>
             
             <h4 className="text-foreground mb-3 mt-6 font-semibold">Key research findings:</h4>
             <ul className="list-disc pl-6 mb-4 text-foreground space-y-2">
@@ -245,12 +246,12 @@ export default function StorehubMembership() {
           
           <h3 className="text-foreground mb-4 mt-8">Becoming the Go-To Design Expert</h3>
           <div className="max-w-none">
-            <p className="text-foreground mb-4 leading-relaxed">As the membership system&apos;s complexity grew, I became the primary resource for questions across engineering, marketing, sales, and merchant success teams. My deep understanding of every integration point and ability to communicate with our China-based engineering team made me the natural bridge between technical implementation and business needs.</p>
+            <p className="text-foreground mb-4 leading-relaxed">As the membership system's complexity grew, I became the bridge for cross-functional collaboration, connecting engineering, marketing, sales, and merchant success teams. My deep understanding of every integration point and ability to communicate with our China-based engineering team enabled me to translate business needs into technically feasible solutions.</p>
           </div>
 
           <h3 className="text-foreground mb-4 mt-8">Design-to-Product Evolution</h3>
           <div className="max-w-none">
-            <p className="text-foreground mb-4 leading-relaxed">When the PM departed, I transitioned to product ownership within two weeks because of my comprehensive system knowledge and established stakeholder relationships. This experience taught me to think beyond interfaces to full product strategy, balancing technical constraints with business priorities.</p>
+            <p className="text-foreground mb-4 leading-relaxed">When the PM departed, I stepped into product ownership within two weeks, leveraging my comprehensive system knowledge and strong stakeholder relationships. This experience sharpened my ability to think beyond interfaces, shaping full product strategy while balancing technical constraints and business priorities</p>
           </div>
         </section>
       </div>
@@ -281,12 +282,12 @@ export default function StorehubMembership() {
 
           <h3 className="text-foreground mb-4 mt-8">Project Impact</h3>
           <div className="max-w-none">
-            <p className="text-foreground mb-4 leading-relaxed">This membership system successfully handles 4,350+ monthly member acquisitions across 88 active merchant programs. The multi-pathway enrollment strategy ensures every merchant can offer membership in a way that feels natural to their business.</p>
+            <p className="text-foreground mb-4 leading-relaxed">The membership system now supports 4,350+ new members each month across 88 active merchant programs. A multi-pathway enrolment strategy allows each merchant to offer membership in a way that feels natural to their business model.</p>
           </div>
 
-          <h3 className="text-foreground mb-4 mt-8">What This Really Means</h3>
+          <h3 className="text-foreground mb-4 mt-8">Designing for Relationships</h3>
           <div className="max-w-none">
-            <p className="text-foreground mb-4 leading-relaxed">Seeing merchants like Binq and Starwise successfully use the system to reward loyal customers reminds me why this design work matters. Each signup represents a customer who chose to build a relationship with a local business, and our design either enables or blocks that connection.</p>
+            <p className="text-foreground mb-4 leading-relaxed">Seeing merchants like Binq and Starwise successfully use the system to reward loyal customers reminds me why this design work matters. Each signup represents a customer who chose to build a relationship with a local business, and our design is what makes that connection possible.</p>
           </div>
 
         </div>
@@ -297,14 +298,14 @@ export default function StorehubMembership() {
         <section className="py-12">
           <h2>Future Opportunities</h2>
           
-          <h3 className="text-foreground mb-4 mt-8">Addressing Remaining Friction Points</h3>
+          <h3 className="text-foreground mb-4 mt-8">From Friction to Innovation</h3>
           <div className="max-w-none">
-            <p className="text-foreground mb-4 leading-relaxed">Through ongoing merchant feedback and data analysis, I&apos;ve identified key areas for improvement. Malaysian merchants still find the POS QR signup flow unintuitive and limiting, leading to my current work on mobile web parity to reduce app-download friction. This represents the kind of continuous optimization that complex systems require.</p>
+            <p className="text-foreground mb-4 leading-relaxed">Continuous feedback and data analysis highlighted friction in the POS QR signup flow, which many Malaysian merchants found unintuitive and limiting. I'm now driving mobile web parity to reduce app-download barriers, a reminder that ongoing optimisation is required in complex systems.</p>
           </div>
 
           <h3 className="text-foreground mb-4 mt-8">Continuing to Serve Merchants Better</h3>
           <div className="max-w-none">
-            <p className="text-foreground mb-4 leading-relaxed">With 9,900+ merchants still not using membership, there are thousands of businesses we haven&apos;t helped yet. Understanding their barriers - whether it&apos;s complexity, cost, or simply not knowing the value - drives my continued work on solutions like mobile web signup that remove friction.</p>
+            <p className="text-foreground mb-4 leading-relaxed">More than 9,000 merchants have yet to adopt membership, representing a huge opportunity. By uncovering their barriers, I am driving initiatives like mobile web signup that simplify the experience and reduce friction, converting opportunities into profit.</p>
           </div>
         </section>
       </div>
