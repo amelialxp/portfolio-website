@@ -38,11 +38,6 @@ export default function LessonsFirstYearDesignerPart3Article() {
               sizes="(max-width: 768px) 100vw, 896px"
             />
           </div>
-          <div className="mt-4 text-center">
-            <p className="text-sm text-secondary-gray italic">
-              From design handoffs to reality: managing expectations and improving processes
-            </p>
-          </div>
           <h1 className="text-3xl md:text-4xl font-spectral text-foreground mb-6 leading-tight">
             Lessons from my first two years as a Product Designer (3/3)
           </h1>

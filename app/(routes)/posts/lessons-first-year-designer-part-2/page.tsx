@@ -38,11 +38,6 @@ export default function LessonsFirstYearDesignerPart2Article() {
               sizes="(max-width: 768px) 100vw, 896px"
             />
           </div>
-          <div className="mt-4 text-center">
-            <p className="text-sm text-secondary-gray italic">
-              Building trust and effective collaboration between designers and engineers
-            </p>
-          </div>
           <h1 className="text-3xl md:text-4xl font-spectral text-foreground mb-6 leading-tight">
             Lessons from my first year as a Product Designer (2/3)
           </h1>

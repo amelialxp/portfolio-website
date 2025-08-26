@@ -38,11 +38,6 @@ export default function LessonsFirstYearDesignerArticle() {
               sizes="(max-width: 768px) 100vw, 896px"
             />
           </div>
-          <div className="mt-4 text-center">
-            <p className="text-sm text-secondary-gray italic">
-              The foundation of healthy work relationships: mentorship and boundaries in design
-            </p>
-          </div>
           <h1 className="text-3xl md:text-4xl font-spectral text-foreground mb-6 leading-tight">
               Lesson 1: A great mentor/boss is crucial in establishing a healthy relationship with work
           </h1>
