@@ -1,8 +1,9 @@
 User-agent: *
-Disallow: /work/
-Disallow: /about/
-Disallow: /profile/
 Allow: /
+Allow: /posts/
+Allow: /ai-design-review/
+Allow: /bo-design-system/  
+Allow: /storehub-membership/
+Disallow: /profile/
 
-# Optional: Add sitemap reference
 Sitemap: https://amylxp.com/sitemap.xml
